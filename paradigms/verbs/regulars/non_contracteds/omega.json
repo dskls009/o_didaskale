@@ -1,0 +1,56 @@
+{
+  "present": {
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "παύω",
+          "second": "παύεις",
+          "third": "παύει"
+        },
+        "plural": {
+          "first": "παύομεν",
+          "second": "παύετε",
+          "third": "παύουσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "παύομαι",
+          "second": "παύῃ",
+          "third": "παύεται"
+        },
+        "plural": {
+          "first": "παυόμεθα",
+          "second": "παύεσθε",
+          "third": "παύονται"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "παῦε",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "παύετε",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "παύου",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "παύεσθε",
+          "third": ""
+        }
+      }
+    }
+  }
+}

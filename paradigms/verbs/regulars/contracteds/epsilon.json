@@ -1,0 +1,56 @@
+{
+  "present": {
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "ποιῶ",
+          "second": "ποιεῖς",
+          "third": "ποιεῖ"
+        },
+        "plural": {
+          "first": "ποιοῦμεν",
+          "second": "ποιεῖτε",
+          "third": "ποιοῦσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ποιοῦμαι",
+          "second": "ποιῇ",
+          "third": "ποιεῖται"
+        },
+        "plural": {
+          "first": "ποιούμεθα",
+          "second": "ποιεῖσθε",
+          "third": "ποιοῦνται"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "ποίει",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "ποιεῖτε",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "ποιοῦ",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "ποιεῖσθε",
+          "third": ""
+        }
+      }
+    }
+  }
+}

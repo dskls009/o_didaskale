@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "θάλαττα",
+    "genitive": "θαλάττης",
+    "dative": "θαλάττῃ",
+    "accusative": "θάλατταν",
+    "vocative": "θάλαττα"
+  },
+  "plural": {
+    "nominative": "θάλατται",
+    "genitive": "θαλαττῶν",
+    "dative": "θαλάτταις",
+    "accusative": "θαλάττας",
+    "vocative": "θάλατται"
+  }
+}

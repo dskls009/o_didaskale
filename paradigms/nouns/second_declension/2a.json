@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "ἄνθρωπος",
+    "genitive": "ἀνθρώπου",
+    "dative": "ἀνθρώπῳ",
+    "accusative": "ἄνθρωπον",
+    "vocative": "ἄνθρωπε"
+  },
+  "plural": {
+    "nominative": "ἄνθρωποι",
+    "genitive": "ἀνθρώπων",
+    "dative": "ἀνθρώποις",
+    "accusative": "ἀνθρώπους",
+    "vocative": "ἄνθρωποι"
+  }
+}

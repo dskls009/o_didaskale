@@ -1,0 +1,30 @@
+{
+  "present": {
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "οἶδα",
+          "second": "οἶσθα",
+          "third": "οἶδε"
+        },
+        "plural": {
+          "first": "ἴσμεν",
+          "second": "ἴστε",
+          "third": "ἴσασι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    }
+  }
+}

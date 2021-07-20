@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "πρέσβυς",
+    "genitive": "πρέσβεως",
+    "dative": "πρέσβεις",
+    "accusative": "πρέσβυν",
+    "vocative": "πρέσβυ"
+  },
+  "plural": {
+    "nominative": "πρέσβεις",
+    "genitive": "πρέσβεων",
+    "dative": "πρέσβεσι",
+    "accusative": "πρέσβεις",
+    "vocative": "πρέσβεις"
+  }
+}

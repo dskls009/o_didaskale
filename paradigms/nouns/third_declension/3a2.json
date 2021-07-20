@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "δαίμων",
+    "genitive": "δαίμονος",
+    "dative": "δαίμονι",
+    "accusative": "δαίμονα",
+    "vocative": "δαῖμον"
+  },
+  "plural": {
+    "nominative": "δαίμονες",
+    "genitive": "δαιμόνων",
+    "dative": "δαίμοσι",
+    "accusative": "δαίμονας",
+    "vocative": "δαίμονες"
+  }
+}

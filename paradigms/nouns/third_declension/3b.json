@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "πρᾶγμα",
+    "genitive": "πράγματος",
+    "dative": "πράγματι",
+    "accusative": "πρᾶγμα",
+    "vocative": "πρᾶγμα"
+  },
+  "plural": {
+    "nominative": "πράγματα",
+    "genitive": "πραγμάτων",
+    "dative": "πράγμασι",
+    "accusative": "πράγματα",
+    "vocative": "πράγματα"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "ἀπορία",
+    "genitive": "ἀπορίας",
+    "dative": "ἀπορίᾳ",
+    "accusative": "ἀπορίαν",
+    "vocative": "ἀπορία"
+  },
+  "plural": {
+    "nominative": "ἀπορίαι",
+    "genitive": "ἀποριῶν",
+    "dative": "ἀπορίαις",
+    "accusative": "ἀπορίας",
+    "vocative": "ἀπορίαι"
+  }
+}

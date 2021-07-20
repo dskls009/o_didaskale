@@ -1,0 +1,56 @@
+{
+  "present": {
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "ὁρῶ",
+          "second": "ὁρᾷς",
+          "third": "ὁρᾷ"
+        },
+        "plural": {
+          "first": "ὁρῶμεν",
+          "second": "ὁρᾶτε",
+          "third": "ὁρῶσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ὁρῶμαι",
+          "second": "ὁρᾷ",
+          "third": "ὁρᾶται"
+        },
+        "plural": {
+          "first": "ὁρώμεθα",
+          "second": "ὁρᾶσθε",
+          "third": "ὁρῶνται"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "ὅρα",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "ὁρᾶτε",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "ὁρῶ",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "ὁρᾶσθε",
+          "third": ""
+        }
+      }
+    }
+  }
+}

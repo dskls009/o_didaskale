@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "νεανίας",
+    "genitive": "νεανίου",
+    "dative": "νεανίᾳ",
+    "accusative": "νεανίαν",
+    "vocative": "νεανία"
+  },
+  "plural": {
+    "nominative": "νεανίαι",
+    "genitive": "νεανιῶν",
+    "dative": "νεανίαις",
+    "accusative": "νεανίας",
+    "vocative": "νεανίαι"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "βοή",
+    "genitive": "βοής",
+    "dative": "βοῇ",
+    "accusative": "βοήν",
+    "vocative": "βοή"
+  },
+  "plural": {
+    "nominative": "βοαί",
+    "genitive": "βοῶν",
+    "dative": "βοαῖς",
+    "accusative": "βοάς",
+    "vocative": "βοαί"
+  }
+}

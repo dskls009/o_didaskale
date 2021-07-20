@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "πόλις",
+    "genitive": "πόλεως",
+    "dative": "πόλει",
+    "accusative": "πόλιν",
+    "vocative": "πόλι"
+  },
+  "plural": {
+    "nominative": "πόλεις",
+    "genitive": "πόλεων",
+    "dative": "πόλεσι",
+    "accusative": "πόλεις",
+    "vocative": "πόλεις"
+  }
+}

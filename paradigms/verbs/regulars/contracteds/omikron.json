@@ -1,0 +1,56 @@
+{
+  "present": {
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "δηλῶ",
+          "second": "δηλοῖς",
+          "third": "δηλοῖ"
+        },
+        "plural": {
+          "first": "δηλοῦμεν",
+          "second": "δηλοῦτε",
+          "third": "δηλοῦσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "δηλοῦμαι",
+          "second": "δηλοῖ",
+          "third": "δηλοῦται"
+        },
+        "plural": {
+          "first": "δηλούμεθα",
+          "second": "δηλοῦσθε",
+          "third": "δηλοῦνται"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "δήλου",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "δηλοῦτε",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "δηλοῦ",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "δηλοῦσθε",
+          "third": ""
+        }
+      }
+    }
+  }
+}

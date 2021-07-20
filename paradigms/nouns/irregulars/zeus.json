@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "Ζεύς",
+    "genitive": "Διός",
+    "dative": "Διί",
+    "accusative": "Διά",
+    "vocative": "Ζεῦ"
+  },
+  "plural": {
+    "nominative": "",
+    "genitive": "",
+    "dative": "",
+    "accusative": "",
+    "vocative": ""
+  }
+}
