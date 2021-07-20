@@ -20,7 +20,7 @@ on your shell
 
 ## .env
 
-Do not forget to create a bot on telegram and getting its token. Create a file names .env on the same directory that the o_didaskale.py is and then put it inside the .env file:
+Do not forget to create a bot on discord and getting its token. Create a file names .env on the same directory that the o_didaskale.py is and then put it inside the .env file:
 ```
 DISCORD_TOKEN=(TOKEN)
 ```
