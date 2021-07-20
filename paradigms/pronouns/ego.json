@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "ἐγώ",
+    "genitive": "ἐμοῦ/μου",
+    "dative": "ἐμοί/μοι",
+    "accusative": "ἐμέ/με",
+    "vocative": ""
+  },
+  "plural": {
+    "nominative": "ἡμεῖς",
+    "genitive": "ἡμῶν",
+    "dative": "ἡμῖν",
+    "accusative": "ἡμᾶς",
+    "vocative": ""
+  }
+}

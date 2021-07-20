@@ -8,9 +8,9 @@
   },
   "plural": {
     "nominative": "νῆες",
-    "genitive": "ναῦς",
-    "dative": "νεῶν",
-    "accusative": "ναυσί",
+    "genitive": "νεῶν",
+    "dative": "ναυσί",
+    "accusative": "ναῦς",
     "vocative": "νῆες"
   }
 }
