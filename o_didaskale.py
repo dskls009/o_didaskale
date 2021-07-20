@@ -21,27 +21,206 @@ async def info(ctx):
 
 @bot.command(name='nouns')
 async def nouns(ctx):
-    em = discord.Embed(title = "You can look up declension paradigms according to Learning Greek division.\nTry these:", value="!1a\n!1b\n!1c\n!1d1\n!1d2\n!2a\n!2b\n!3a1\n!3a2\n!3b\n!3c\n!3d1\n!3d2\n!3e1\n!3e2\n!3f\n!3g\n!irregular_nouns")
-    await ctx.send(embed=em)
+  em = discord.Embed(title = "You can look up declension paradigms according to Learning Greek division.")
+  em.add_field(name="Try these:", value="!1a\n!1b\n!1c\n!1d1\n!1d2\n!2a\n!2b\n!3a1\n!3a2\n!3b\n!3c\n!3d1\n!3d2\n!3e1\n!3e2\n!3f\n!3g\n!irregular_nouns")
+  await ctx.send(embed=em)
 
 @bot.command(name='irregular_nouns')
 async def irregular_nouns(ctx):
-    em = discord.Embed(title="You can look up the irregular nouns declension.\nTry these:", value="!zeus\n!naus")
-    await ctx.send(embed=em)
+  em = discord.Embed(title="You can look up the irregular nouns declension.")
+  em.add_field(name="Try these:", value="!zeus\n!naus")
+  await ctx.send(embed=em)
 
 @bot.command(name='articles')
 async def articles(ctx):
-    em = discord.Embed(title = "You can look up the articles declension.\nTry these:", value="!masculine\n!feminine\n!neuter")
-    await ctx.send(embed=em)
+  em = discord.Embed(title = "You can look up the articles declension.")
+  em.add_field(name="Try these:", value="!masculine\n!feminine\n!neuter")
+  await ctx.send(embed=em)
 
 @bot.command(name='adjectives')
 async def adjectives(ctx):
-    em = discord.Embed(title = "You can look up adjectives declension paradigms.\nTry these:", value="!os_a_on\n!os_e_on\n!on_on\n!es_es")
-    await ctx.send(embed=em)
+  em = discord.Embed(title = "You can look up adjectives declension paradigms.")
+  em.add_field(name="Try these:", value="!os_a_on\n!os_e_on\n!on_on\n!es_es")
+  await ctx.send(embed=em)
 
 @bot.command(name='verbs')
 async def verbs(ctx):
-    em = discord.Embed(title = "You can look up verb paradigms.\nTry these:", value="!non_contracted\n!contracted\n!irregular_verbs")
+  em = discord.Embed(title = "You can look up verb paradigms.")
+  em.add_field(name="Try these:", value="!non_contracted\n!contracteds\n!irregular_verbs")
+  await ctx.send(embed=em)
+
+@bot.command(name='contracteds')
+async def contracteds(ctx):
+  em = discord.Embed(title = "You can look up contracted conjugation paradigms.")
+  em.add_field(name="Try these:", value="!contracted_alpha\n!contracted_epsilon\n!contracted_omikron")
+  await ctx.send(embed=em)
+
+@bot.command(name='non_contracted')
+async def non_contracted(ctx):
+  with open ("paradigms/verbs/regulars/non_contracteds/omega.json", "r", encoding='utf8') as f:
+    data = json.load(f)
+
+    present = data["present"]
+    present_indicative = present["indicative"]
+    present_imperative = present["imperative"]
+
+    present_indicative_active = present_indicative["active"]
+    present_indicative_middle = present_indicative["middle"]
+
+    present_imperative_active = present_imperative["active"]
+    present_imperative_middle = present_imperative["middle"]
+
+    present_indicative_active_1s = present_indicative_active["singular"]["first"]
+    present_indicative_active_2s = present_indicative_active["singular"]["second"]
+    present_indicative_active_3s = present_indicative_active["singular"]["third"]
+    present_indicative_active_1p = present_indicative_active["plural"]["first"]
+    present_indicative_active_2p = present_indicative_active["plural"]["second"]
+    present_indicative_active_3p = present_indicative_active["plural"]["third"]
+
+    present_indicative_middle_1s = present_indicative_middle["singular"]["first"]
+    present_indicative_middle_2s = present_indicative_middle["singular"]["second"]
+    present_indicative_middle_3s = present_indicative_middle["singular"]["third"]
+    present_indicative_middle_1p = present_indicative_middle["plural"]["first"]
+    present_indicative_middle_2p = present_indicative_middle["plural"]["second"]
+    present_indicative_middle_3p = present_indicative_middle["plural"]["third"]
+    
+    present_imperative_active_2s = present_imperative_active["singular"]["second"]
+    present_imperative_active_2p = present_imperative_active["plural"]["second"]
+
+    present_imperative_middle_2s = present_imperative_middle["singular"]["second"]
+    present_imperative_middle_2p = present_imperative_middle["plural"]["second"]
+
+    em = discord.Embed(title="Regular conjugation -ω (παύω/παύομαι)", color=discord.Color.blue())
+    em.add_field(name="Present Indicative Active", value=f"1.s.: {present_indicative_active_1s}\n2.s.: {present_indicative_active_2s}\n3.s.: {present_indicative_active_3s}\n1.p.: {present_indicative_active_1p}\n2.p.: {present_indicative_active_2p}\n3.p.: {present_indicative_active_3p}")
+    em.add_field(name="Present Indicative Middle", value=f"1.s.: {present_indicative_middle_1s}\n2.s.: {present_indicative_middle_2s}\n3.s.: {present_indicative_middle_3s}\n1.p.: {present_indicative_middle_1p}\n2.p.: {present_indicative_middle_2p}\n3.p.: {present_indicative_middle_3p}")
+    em.add_field(name="Present Imperative Active", value=f"2.s.: {present_imperative_active_2s}\n2.p.: {present_imperative_active_2p}")
+    em.add_field(name="Present Imperative Middle", value=f"2.s.: {present_imperative_middle_2s}\n2.p.: {present_imperative_middle_2p}")
+    await ctx.send(embed=em)
+
+@bot.command(name='contracted_alpha')
+async def contracted_alpha(ctx):
+  with open ("paradigms/verbs/regulars/contracteds/alpha.json", "r", encoding='utf8') as f:
+    data = json.load(f)
+
+    present = data["present"]
+    present_indicative = present["indicative"]
+    present_imperative = present["imperative"]
+
+    present_indicative_active = present_indicative["active"]
+    present_indicative_middle = present_indicative["middle"]
+
+    present_imperative_active = present_imperative["active"]
+    present_imperative_middle = present_imperative["middle"]
+
+    present_indicative_active_1s = present_indicative_active["singular"]["first"]
+    present_indicative_active_2s = present_indicative_active["singular"]["second"]
+    present_indicative_active_3s = present_indicative_active["singular"]["third"]
+    present_indicative_active_1p = present_indicative_active["plural"]["first"]
+    present_indicative_active_2p = present_indicative_active["plural"]["second"]
+    present_indicative_active_3p = present_indicative_active["plural"]["third"]
+
+    present_indicative_middle_1s = present_indicative_middle["singular"]["first"]
+    present_indicative_middle_2s = present_indicative_middle["singular"]["second"]
+    present_indicative_middle_3s = present_indicative_middle["singular"]["third"]
+    present_indicative_middle_1p = present_indicative_middle["plural"]["first"]
+    present_indicative_middle_2p = present_indicative_middle["plural"]["second"]
+    present_indicative_middle_3p = present_indicative_middle["plural"]["third"]
+    
+    present_imperative_active_2s = present_imperative_active["singular"]["second"]
+    present_imperative_active_2p = present_imperative_active["plural"]["second"]
+
+    present_imperative_middle_2s = present_imperative_middle["singular"]["second"]
+    present_imperative_middle_2p = present_imperative_middle["plural"]["second"]
+
+    em = discord.Embed(title="Contracted conjugation -άω (ὁρῶ/ὁρῶμαι)", color=discord.Color.blue())
+    em.add_field(name="Present Indicative Active", value=f"1.s.: {present_indicative_active_1s}\n2.s.: {present_indicative_active_2s}\n3.s.: {present_indicative_active_3s}\n1.p.: {present_indicative_active_1p}\n2.p.: {present_indicative_active_2p}\n3.p.: {present_indicative_active_3p}")
+    em.add_field(name="Present Indicative Middle", value=f"1.s.: {present_indicative_middle_1s}\n2.s.: {present_indicative_middle_2s}\n3.s.: {present_indicative_middle_3s}\n1.p.: {present_indicative_middle_1p}\n2.p.: {present_indicative_middle_2p}\n3.p.: {present_indicative_middle_3p}")
+    em.add_field(name="Present Imperative Active", value=f"2.s.: {present_imperative_active_2s}\n2.p.: {present_imperative_active_2p}")
+    em.add_field(name="Present Imperative Middle", value=f"2.s.: {present_imperative_middle_2s}\n2.p.: {present_imperative_middle_2p}")
+    await ctx.send(embed=em)
+
+@bot.command(name='contracted_epsilon')
+async def contracted_epsilon(ctx):
+  with open ("paradigms/verbs/regulars/contracteds/epsilon.json", "r", encoding='utf8') as f:
+    data = json.load(f)
+
+    present = data["present"]
+    present_indicative = present["indicative"]
+    present_imperative = present["imperative"]
+
+    present_indicative_active = present_indicative["active"]
+    present_indicative_middle = present_indicative["middle"]
+
+    present_imperative_active = present_imperative["active"]
+    present_imperative_middle = present_imperative["middle"]
+
+    present_indicative_active_1s = present_indicative_active["singular"]["first"]
+    present_indicative_active_2s = present_indicative_active["singular"]["second"]
+    present_indicative_active_3s = present_indicative_active["singular"]["third"]
+    present_indicative_active_1p = present_indicative_active["plural"]["first"]
+    present_indicative_active_2p = present_indicative_active["plural"]["second"]
+    present_indicative_active_3p = present_indicative_active["plural"]["third"]
+
+    present_indicative_middle_1s = present_indicative_middle["singular"]["first"]
+    present_indicative_middle_2s = present_indicative_middle["singular"]["second"]
+    present_indicative_middle_3s = present_indicative_middle["singular"]["third"]
+    present_indicative_middle_1p = present_indicative_middle["plural"]["first"]
+    present_indicative_middle_2p = present_indicative_middle["plural"]["second"]
+    present_indicative_middle_3p = present_indicative_middle["plural"]["third"]
+    
+    present_imperative_active_2s = present_imperative_active["singular"]["second"]
+    present_imperative_active_2p = present_imperative_active["plural"]["second"]
+
+    present_imperative_middle_2s = present_imperative_middle["singular"]["second"]
+    present_imperative_middle_2p = present_imperative_middle["plural"]["second"]
+
+    em = discord.Embed(title="Contracted conjugation -έω (ποιῶ/ποιοῦμαι)", color=discord.Color.blue())
+    em.add_field(name="Present Indicative Active", value=f"1.s.: {present_indicative_active_1s}\n2.s.: {present_indicative_active_2s}\n3.s.: {present_indicative_active_3s}\n1.p.: {present_indicative_active_1p}\n2.p.: {present_indicative_active_2p}\n3.p.: {present_indicative_active_3p}")
+    em.add_field(name="Present Indicative Middle", value=f"1.s.: {present_indicative_middle_1s}\n2.s.: {present_indicative_middle_2s}\n3.s.: {present_indicative_middle_3s}\n1.p.: {present_indicative_middle_1p}\n2.p.: {present_indicative_middle_2p}\n3.p.: {present_indicative_middle_3p}")
+    em.add_field(name="Present Imperative Active", value=f"2.s.: {present_imperative_active_2s}\n2.p.: {present_imperative_active_2p}")
+    em.add_field(name="Present Imperative Middle", value=f"2.s.: {present_imperative_middle_2s}\n2.p.: {present_imperative_middle_2p}")
+    await ctx.send(embed=em)
+
+@bot.command(name='contracted_omikron')
+async def contracted_omikron(ctx):
+  with open ("paradigms/verbs/regulars/contracteds/omikron.json", "r", encoding='utf8') as f:
+    data = json.load(f)
+
+    present = data["present"]
+    present_indicative = present["indicative"]
+    present_imperative = present["imperative"]
+
+    present_indicative_active = present_indicative["active"]
+    present_indicative_middle = present_indicative["middle"]
+
+    present_imperative_active = present_imperative["active"]
+    present_imperative_middle = present_imperative["middle"]
+
+    present_indicative_active_1s = present_indicative_active["singular"]["first"]
+    present_indicative_active_2s = present_indicative_active["singular"]["second"]
+    present_indicative_active_3s = present_indicative_active["singular"]["third"]
+    present_indicative_active_1p = present_indicative_active["plural"]["first"]
+    present_indicative_active_2p = present_indicative_active["plural"]["second"]
+    present_indicative_active_3p = present_indicative_active["plural"]["third"]
+
+    present_indicative_middle_1s = present_indicative_middle["singular"]["first"]
+    present_indicative_middle_2s = present_indicative_middle["singular"]["second"]
+    present_indicative_middle_3s = present_indicative_middle["singular"]["third"]
+    present_indicative_middle_1p = present_indicative_middle["plural"]["first"]
+    present_indicative_middle_2p = present_indicative_middle["plural"]["second"]
+    present_indicative_middle_3p = present_indicative_middle["plural"]["third"]
+    
+    present_imperative_active_2s = present_imperative_active["singular"]["second"]
+    present_imperative_active_2p = present_imperative_active["plural"]["second"]
+
+    present_imperative_middle_2s = present_imperative_middle["singular"]["second"]
+    present_imperative_middle_2p = present_imperative_middle["plural"]["second"]
+
+    em = discord.Embed(title="Contracted conjugation -όω (δηλῶ/δηλοῦμαι)", color=discord.Color.blue())
+    em.add_field(name="Present Indicative Active", value=f"1.s.: {present_indicative_active_1s}\n2.s.: {present_indicative_active_2s}\n3.s.: {present_indicative_active_3s}\n1.p.: {present_indicative_active_1p}\n2.p.: {present_indicative_active_2p}\n3.p.: {present_indicative_active_3p}")
+    em.add_field(name="Present Indicative Middle", value=f"1.s.: {present_indicative_middle_1s}\n2.s.: {present_indicative_middle_2s}\n3.s.: {present_indicative_middle_3s}\n1.p.: {present_indicative_middle_1p}\n2.p.: {present_indicative_middle_2p}\n3.p.: {present_indicative_middle_3p}")
+    em.add_field(name="Present Imperative Active", value=f"2.s.: {present_imperative_active_2s}\n2.p.: {present_imperative_active_2p}")
+    em.add_field(name="Present Imperative Middle", value=f"2.s.: {present_imperative_middle_2s}\n2.p.: {present_imperative_middle_2p}")
     await ctx.send(embed=em)
 
 @bot.command(name='1a')
