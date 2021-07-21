@@ -1,5 +1,5 @@
 # o_didaskale
-This is a discord bot called Ô DIDÁSKALE that seeks to help ancient greek students memorize declensions and other paradigms.
+This is a discord bot called ὦ διδάσκαλε that seeks to help ancient greek students memorize declensions and other paradigms.
 I looked up another in progress bot that does the same (https://github.com/Novemberstuart/Aletheia) but decided to start my own bot since its last commit was in april.
 
 ## Requirements.txt
