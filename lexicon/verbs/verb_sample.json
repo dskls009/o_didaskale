@@ -1,7 +1,7 @@
 {
   "present": {
     "infinitive": {
-      "active": "εἶναι",
+      "active": "",
       "middle": "",
       "passive": ""
     },
@@ -9,50 +9,50 @@
       "active": {
         "masculine": {
           "singular": {
-            "nominative": "ὤν",
-            "genitive": "ὄντος",
-            "dative": "ὄντι",
-            "accusative": "ὄντα",
-            "vocative": "ὤν"
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
           },
           "plural": {
-            "nominative": "ὄντες",
-            "genitive": "ὄντων",
-            "dative": "οὖσι",
-            "accusative": "ὄντας",
-            "vocative": "ὄντες"
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
           }
         },
         "feminine": {
           "singular": {
-            "nominative": "οὖσα",
-            "genitive": "οὔσης",
-            "dative": "οὔσῃ",
-            "accusative": "οὖσαν",
-            "vocative": "οὖσα"
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
           },
           "plural": {
-            "nominative": "οὖσαι",
-            "genitive": "οὐσῶν",
-            "dative": "οὔσαις",
-            "accusative": "οὔσας",
-            "vocative": "οὖσαι"
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
           }
         },
         "neuter": {
           "singular": {
-            "nominative": "ὄν",
-            "genitive": "ὄντος",
-            "dative": "ὄντι",
-            "accusative": "ὄν",
-            "vocative": "ὄν"
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
           },
           "plural": {
-            "nominative": "ὄντα",
-            "genitive": "ὄντων",
-            "dative": "οὖσι",
-            "accusative": "ὄντα",
-            "vocative": "ὄντα"
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
           }
         }
       },
@@ -160,14 +160,14 @@
     "indicative": {
       "active": {
         "singular": {
-          "first": "εἰμί",
-          "second": "εἶ",
-          "third": "ἐστί"
+          "first": "",
+          "second": "",
+          "third": ""
         },
         "plural": {
-          "first": "ἐσμέν",
-          "second": "ἐστέ",
-          "third": "εἰσί"
+          "first": "",
+          "second": "",
+          "third": ""
         }
       },
       "middle": {
@@ -199,12 +199,12 @@
       "active": {
         "singular": {
           "first": "",
-          "second": "ἴσθι",
+          "second": "",
           "third": ""
         },
         "plural": {
           "first": "",
-          "second": "ἔστε",
+          "second": "",
           "third": ""
         }
       },
@@ -236,14 +236,14 @@
     "subjunctive": {
       "active": {
         "singular": {
-          "first": "ὦ",
-          "second": "ᾖς",
-          "third": "ᾖ"
+          "first": "",
+          "second": "",
+          "third": ""
         },
         "plural": {
-          "first": "ὦμεν",
-          "second": "ἦτε",
-          "third": "ὦσι"
+          "first": "",
+          "second": "",
+          "third": ""
         }
       },
       "middle": {
@@ -274,14 +274,14 @@
     "optative": {
       "active": {
         "singular": {
-          "first": "εἴην",
-          "second": "εἴης",
-          "third": "εἴη"
+          "first": "",
+          "second": "",
+          "third": ""
         },
         "plural": {
-          "first": "εἴημεν/εἶμεν",
-          "second": "εἴητε/εἶτε",
-          "third": "εἴησαν/εἶεν"
+          "first": "",
+          "second": "",
+          "third": ""
         }
       },
       "middle": {
@@ -471,14 +471,14 @@
     "indicative": {
       "active": {
         "singular": {
-          "first": "ἦ/ἦν",
-          "second": "ἦσθα",
-          "third": "ἦν"
+          "first": "",
+          "second": "",
+          "third": ""
         },
         "plural": {
-          "first": "ἦμεν",
-          "second": "ἦτε",
-          "third": "ἦσαν"
+          "first": "",
+          "second": "",
+          "third": ""
         }
       },
       "middle": {
@@ -624,7 +624,7 @@
   "future": {
     "infinitive": {
       "active": "",
-      "middle": "ἔσεσθαι",
+      "middle": "",
       "passive": ""
     },
     "participle": {
@@ -681,50 +681,50 @@
       "middle": {
         "masculine": {
           "singular": {
-            "nominative": "ἐσόμενος",
-            "genitive": "ἐσομένου/ἐσομενοῖο/ἐσομένοιο/ἐσομενόο/ἐσομένοο",
-            "dative": "ἐσομένῳ",
-            "accusative": "ἐσόμενον",
-            "vocative": "ἐσόμενε"
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
           },
           "plural": {
-            "nominative": "ἐσόμενοι",
-            "genitive": "ἐσομένων",
-            "dative": "ἐσομένοισι/ἐσομένοις",
-            "accusative": "ἐσομένους",
-            "vocative": "ἐσόμενοι"
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
           }
         },
         "feminine": {
           "singular": {
-            "nominative": "ἐσομένη",
-            "genitive": "ἐσομένης",
-            "dative": "ἐσομένῃ",
-            "accusative": "ἐσομένην",
-            "vocative": "ἐσομένη"
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
           },
           "plural": {
-            "nominative": "ἐσόμεναι",
-            "genitive": "ἐσομενῶν",
-            "dative": "ἐσομένῃσι/ἐσομένῃς/ἐσομέναις",
-            "accusative": "ἐσομένας",
-            "vocative": "ἐσόμεναι"
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
           }
         },
         "neuter": {
           "singular": {
-            "nominative": "ἐσόμενον",
-            "genitive": "ἐσομένου/ἐσομενοῖο/ἐσομένοιο/ἐσομενόο/ἐσομένοο",
-            "dative": "ἐσομένῳ",
-            "accusative": "ἐσόμενον",
-            "vocative": "ἐσόμενον"
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
           },
           "plural": {
-            "nominative": "ἐσόμενα",
-            "genitive": "ἐσομένων",
-            "dative": "ἐσομένοισι/ἐσομένοις",
-            "accusative": "ἐσόμενα",
-            "vocative": "ἐσόμενα"
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
           }
         }
       },
@@ -794,14 +794,14 @@
       },
       "middle": {
         "singular": {
-          "first": "ἔσομαι",
-          "second": "ἔσῃ/ἔσει",
-          "third": "ἔσται"
+          "first": "",
+          "second": "",
+          "third": ""
         },
         "plural": {
-          "first": "ἐσόμεθα",
-          "second": "ἔσεσθε",
-          "third": "ἔσονται"
+          "first": "",
+          "second": "",
+          "third": ""
         }
       },
       "passive": {
@@ -908,14 +908,14 @@
       },
       "middle": {
         "singular": {
-          "first": "ἐσοίμην",
-          "second": "ἔσοιο",
-          "third": "ἔσοιτο"
+          "first": "",
+          "second": "",
+          "third": ""
         },
         "plural": {
-          "first": "ἐσοίμεθα",
-          "second": "ἔσοισθε",
-          "third": "ἔσοιντο"
+          "first": "",
+          "second": "",
+          "third": ""
         }
       },
       "passive": {
