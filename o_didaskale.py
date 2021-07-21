@@ -13,11 +13,6 @@ bot = commands.Bot(command_prefix='!')
 async def on_ready():
   print("Ready!")
 
-@bot.event
-async def on_message(message):
-    if bot.user.mentioned_in(message):
-        await message.channel.send("You can type !info for more info.")
-
 def declinator(word_json, description):
 
   singular = word_json["singular"]
@@ -1104,7 +1099,7 @@ async def pronouns(ctx):
 
 @bot.command(name='nouns')
 async def nouns(ctx):
-  em = discord.Embed(title = "You can look up declension paradigms according to Learning Greek division.", color = discord.Color.blue())
+  em = discord.Embed(title = "You can look up declension paradigms according to Reading Greek division.", color = discord.Color.blue())
   em.add_field(name="Try these:", value="!1a\n!1b\n!1c\n!1d1\n!1d2\n!2a\n!2b\n!3a1\n!3a2\n!3b\n!3c\n!3d1\n!3d2\n!3e1\n!3e2\n!3f\n!3g\n!irregular_nouns")
   await ctx.send(embed=em)
 
@@ -1319,10 +1314,10 @@ async def eimi(ctx):
 
     em_present = conjugator_present(data, "Present")
     em_imperfect = conjugator_imperfect(data, "Imperfect")
-    em_future = conjugator_future(data, "future")
-    em_aorist = conjugator_aorist(data, "aorist")
-    em_perfect = conjugator_perfect(data, "perfect")
-    em_pluperfect = conjugator_pluperfect(data, "pluperfect")
+    em_future = conjugator_future(data, "Future")
+    em_aorist = conjugator_aorist(data, "Aorist")
+    em_perfect = conjugator_perfect(data, "Perfect")
+    em_pluperfect = conjugator_pluperfect(data, "Pluperfect")
 
     em_p_m_present_a = declinator(data["present"]["participle"]["active"]["masculine"], "Present Participle Active Masculine")
     em_p_f_present_a = declinator(data["present"]["participle"]["active"]["feminine"], "Present Participle Active Feminine")
