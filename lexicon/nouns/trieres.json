@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "τριήρης",
+    "genitive": "τριήρους",
+    "dative": "τριήρει",
+    "accusative": "τριήρη",
+    "vocative": "τριῆρες"
+  },
+  "plural": {
+    "nominative": "τριήρεις",
+    "genitive": "τριήρων",
+    "dative": "τριήρεσι",
+    "accusative": "τριήρεις",
+    "vocative": "τριήρεις"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "ναύτης",
+    "genitive": "ναύτου",
+    "dative": "ναύτῃ",
+    "accusative": "ναύτην",
+    "vocative": "ναῦτα"
+  },
+  "plural": {
+    "nominative": "ναῦται",
+    "genitive": "ναυτῶν",
+    "dative": "ναύταις",
+    "accusative": "ναύτας",
+    "vocative": "ναῦται"
+  }
+}

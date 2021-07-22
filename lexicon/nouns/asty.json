@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "ἄστυ",
+    "genitive": "ἄστεως",
+    "dative": "ἄστει",
+    "accusative": "ἄστυ",
+    "vocative": "ἄστυ"
+  },
+  "plural": {
+    "nominative": "ἄστη",
+    "genitive": "ἄστων",
+    "dative": "ἄστεσι",
+    "accusative": "ἄστη",
+    "vocative": "ἄστη"
+  }
+}

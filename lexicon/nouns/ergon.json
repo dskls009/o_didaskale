@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "ἔργον",
+    "genitive": "ἔργου",
+    "dative": "ἔργῳ",
+    "accusative": "ἔργον",
+    "vocative": "ἔργον"
+  },
+  "plural": {
+    "nominative": "ἔργα",
+    "genitive": "ἔργων",
+    "dative": "ἔργοις",
+    "accusative": "ἔργα",
+    "vocative": "ἔργα"
+  }
+}

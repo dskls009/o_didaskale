@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "βασιλεύς",
+    "genitive": "βασιλέως",
+    "dative": "βασιλεῖ",
+    "accusative": "βασιλέα",
+    "vocative": "βασιλεῦ"
+  },
+  "plural": {
+    "nominative": "βασιλῆς",
+    "genitive": "βασιλέων",
+    "dative": "βασιλεῦσι",
+    "accusative": "βασιλέας",
+    "vocative": "βασιλεῖς"
+  }
+}

@@ -1,0 +1,1868 @@
+{
+  "present": {
+    "infinitive": {
+      "active": "παύειν",
+      "middle": "παύεσθαι",
+      "passive": "παύεσθαι"
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "παύων",
+            "genitive": "παύοντος",
+            "dative": "παύοντι",
+            "accusative": "παύοντα",
+            "vocative": "παύων"
+          },
+          "plural": {
+            "nominative": "παύοντεσ",
+            "genitive": "παυόντων",
+            "dative": "παύουσι",
+            "accusative": "παύοντας",
+            "vocative": "παύοντες"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "παύουσα",
+            "genitive": "παυούσης",
+            "dative": "παυούσῃ",
+            "accusative": "παύουσαν",
+            "vocative": "παύουσα"
+          },
+          "plural": {
+            "nominative": "παύουσαι",
+            "genitive": "παυούσας",
+            "dative": "παυουσῶν",
+            "accusative": "παυούσαις",
+            "vocative": "παύουσαι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "παῦον",
+            "genitive": "παύοντος",
+            "dative": "παύοντι",
+            "accusative": "παῦον",
+            "vocative": "παῦον"
+          },
+          "plural": {
+            "nominative": "παύοντα",
+            "genitive": "παυόντων",
+            "dative": "παύουσι",
+            "accusative": "παύοντα",
+            "vocative": "παύοντα"
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "παυόμενος",
+            "genitive": "παυομένου",
+            "dative": "παυομένῳ",
+            "accusative": "παυόμενον",
+            "vocative": "παυόμενε"
+          },
+          "plural": {
+            "nominative": "παυόμενοι",
+            "genitive": "παυομένων",
+            "dative": "παυομένοις",
+            "accusative": "παυομένους",
+            "vocative": "παυόμενοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "παυομένη",
+            "genitive": "παυομένης",
+            "dative": "παυομένῃ",
+            "accusative": "παυομένην",
+            "vocative": "παυομένη"
+          },
+          "plural": {
+            "nominative": "παυόμεναι",
+            "genitive": "παυομένων",
+            "dative": "παυομέναις",
+            "accusative": "παυομένας",
+            "vocative": "παυόμεναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "παυόμενον",
+            "genitive": "παυομένου",
+            "dative": "παυομένῳ",
+            "accusative": "παυόμενον",
+            "vocative": "παυόμενον"
+          },
+          "plural": {
+            "nominative": "παυόμενα",
+            "genitive": "παυομένων",
+            "dative": "παυομένοις",
+            "accusative": "παυόμενα",
+            "vocative": "παυόμενα"
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "παυόμενος",
+            "genitive": "παυομένου",
+            "dative": "παυομένῳ",
+            "accusative": "παυόμενον",
+            "vocative": "παυόμενε"
+          },
+          "plural": {
+            "nominative": "παυόμενοι",
+            "genitive": "παυομένων",
+            "dative": "παυομένοις",
+            "accusative": "παυομένους",
+            "vocative": "παυόμενοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "παυομένη",
+            "genitive": "παυομένης",
+            "dative": "παυομένῃ",
+            "accusative": "παυομένην",
+            "vocative": "παυομένη"
+          },
+          "plural": {
+            "nominative": "παυόμεναι",
+            "genitive": "παυομένων",
+            "dative": "παυομέναις",
+            "accusative": "παυομένας",
+            "vocative": "παυόμεναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "παυόμενον",
+            "genitive": "παυομένου",
+            "dative": "παυομένῳ",
+            "accusative": "παυόμενον",
+            "vocative": "παυόμενον"
+          },
+          "plural": {
+            "nominative": "παυόμενα",
+            "genitive": "παυομένων",
+            "dative": "παυομένοις",
+            "accusative": "παυόμενα",
+            "vocative": "παυόμενα"
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "παύω",
+          "second": "παύεις",
+          "third": "παύει"
+        },
+        "plural": {
+          "first": "παύομεν",
+          "second": "παύετε",
+          "third": "παύουσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "παύομαι",
+          "second": "παύῃ/παύει",
+          "third": "παύεται"
+        },
+        "plural": {
+          "first": "παυόμεθα",
+          "second": "παύεσθε",
+          "third": "παύονται"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "παύομαι",
+          "second": "παύῃ/παύει",
+          "third": "παύεται"
+        },
+        "plural": {
+          "first": "παυόμεθα",
+          "second": "παύεσθε",
+          "third": "παύονται"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "παῦε",
+          "third": "παυέτω"
+        },
+        "plural": {
+          "first": "",
+          "second": "παύετε",
+          "third": "παυόντων"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "παύου",
+          "third": "παυέσθω"
+        },
+        "plural": {
+          "first": "",
+          "second": "παύεσθε",
+          "third": "παυέσθων"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "παύου",
+          "third": "παυέσθω"
+        },
+        "plural": {
+          "first": "",
+          "second": "παύεσθε",
+          "third": "παυέσθων"
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "παύω",
+          "second": "παύῃς",
+          "third": "παύῃ"
+        },
+        "plural": {
+          "first": "παύωμεν",
+          "second": "παύητε",
+          "third": "παύωσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "παύωμαι",
+          "second": "παύῃ",
+          "third": "παύηται"
+        },
+        "plural": {
+          "first": "παυώμεθα",
+          "second": "παύησθε",
+          "third": "παύωνται"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "παύωμαι",
+          "second": "παύῃ",
+          "third": "παύηται"
+        },
+        "plural": {
+          "first": "παυώμεθα",
+          "second": "παύησθε",
+          "third": "παύωνται"
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "παύοιμι",
+          "second": "παύοις",
+          "third": "παύοι"
+        },
+        "plural": {
+          "first": "παύοιμεν",
+          "second": "παύοιτε",
+          "third": "παύοιεν"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "παυοίμην",
+          "second": "παύοιο",
+          "third": "παύοιτο"
+        },
+        "plural": {
+          "first": "παυοίμεθα",
+          "second": "παύοισθε",
+          "third": "παύοιντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "παυοίμην",
+          "second": "παύοιο",
+          "third": "παύοιτο"
+        },
+        "plural": {
+          "first": "παυοίμεθα",
+          "second": "παύοισθε",
+          "third": "παύοιντο"
+        }
+      }
+    }
+  },
+  "imperfect": {
+    "infinitive": {
+      "active": "",
+      "middle": "",
+      "passive": ""
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "ἔπαυον",
+          "second": "ἔπαυες",
+          "third": "ἔπαυε"
+        },
+        "plural": {
+          "first": "ἐπαύομεν",
+          "second": "ἐπαύετε",
+          "third": "ἔπαυον"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ἐπαυόμην",
+          "second": "ἐπαύου",
+          "third": "ἐπαύετο"
+        },
+        "plural": {
+          "first": "ἐπαυόμεθα",
+          "second": "ἐπαύεσθε",
+          "third": "ἐπαύοντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ἐπαυόμην",
+          "second": "ἐπαύου",
+          "third": "ἐπαύετο"
+        },
+        "plural": {
+          "first": "ἐπαυόμεθα",
+          "second": "ἐπαύεσθε",
+          "third": "ἐπαύοντο"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    }
+  },
+  "future": {
+    "infinitive": {
+      "active": "παύσειν",
+      "middle": "παύσεσθαι",
+      "passive": "παυσθήσεσθαι"
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "παύσων",
+            "genitive": "παύσοντος",
+            "dative": "παύσοντι",
+            "accusative": "παύσοντα",
+            "vocative": "παύσων"
+          },
+          "plural": {
+            "nominative": "παύσοντες",
+            "genitive": "παυσόντων",
+            "dative": "παύσουσι",
+            "accusative": "παύσοντας",
+            "vocative": "παύσοντες"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "παύσουσα",
+            "genitive": "παυσούσης",
+            "dative": "παυσούσῃ",
+            "accusative": "παύσουσαν",
+            "vocative": "παύσουσα"
+          },
+          "plural": {
+            "nominative": "παύσουσαι",
+            "genitive": "παυσούσας",
+            "dative": "παυσουσῶν",
+            "accusative": "παυσούσαις",
+            "vocative": "παύσουσαι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "παῦσον",
+            "genitive": "παύσοντος",
+            "dative": "παύσοντι",
+            "accusative": "παῦσον",
+            "vocative": "παῦσον"
+          },
+          "plural": {
+            "nominative": "παύσοντα",
+            "genitive": "παυσόντων",
+            "dative": "παύσουσι",
+            "accusative": "παύσοντα",
+            "vocative": "παύσοντα"
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "παυσόμενος",
+            "genitive": "παυσομένου",
+            "dative": "παυσομένῳ",
+            "accusative": "παυσόμενον",
+            "vocative": "παυσόμενε"
+          },
+          "plural": {
+            "nominative": "παυσόμενοι",
+            "genitive": "παυσομένων",
+            "dative": "παυσομένοις",
+            "accusative": "παυσομένους",
+            "vocative": "παυσόμενοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "παυσομένη",
+            "genitive": "παυσομένης",
+            "dative": "παυσομένῃ",
+            "accusative": "παυσομένην",
+            "vocative": "παυσομένη"
+          },
+          "plural": {
+            "nominative": "παυσόμεναι",
+            "genitive": "παυσομένων",
+            "dative": "παυσομέναις",
+            "accusative": "παυσομένας",
+            "vocative": "παυσόμεναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "παυσόμενον",
+            "genitive": "παυσομένου",
+            "dative": "παυσομένῳ",
+            "accusative": "παυσόμενον",
+            "vocative": "παυσόμενον"
+          },
+          "plural": {
+            "nominative": "παυσόμενα",
+            "genitive": "παυσομένων",
+            "dative": "παυσομένοις",
+            "accusative": "παυσόμενα",
+            "vocative": "παυσόμενα"
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "παυσθησόμενος",
+            "genitive": "παυσθησομένου",
+            "dative": "παυσθησομένῳ",
+            "accusative": "παυσθησόμενον",
+            "vocative": "παυσθησόμενος"
+          },
+          "plural": {
+            "nominative": "παυσθησόμενοι",
+            "genitive": "παυσθησομένων",
+            "dative": "παυσθησομένοις",
+            "accusative": "παυσθησομένους",
+            "vocative": "παυσθησόμενοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "παυσθησομένη",
+            "genitive": "παυσθησομένης",
+            "dative": "παυσθησομένῃ",
+            "accusative": "παυσθησομένην",
+            "vocative": "παυσθησομένη"
+          },
+          "plural": {
+            "nominative": "παυσθησόμεναι",
+            "genitive": "παυσθησομένων",
+            "dative": "παυσθησομέναις",
+            "accusative": "παυσθησομένας",
+            "vocative": "παυσθησόμεναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "παυσθησόμενον",
+            "genitive": "παυσθησομένου",
+            "dative": "παυσθησομένῳ",
+            "accusative": "παυσθησόμενον",
+            "vocative": "παυσθησόμενον"
+          },
+          "plural": {
+            "nominative": "παυσθησόμενα",
+            "genitive": "παυσθησομένων",
+            "dative": "παυσθησομένοις",
+            "accusative": "παυσθησόμενα",
+            "vocative": "παυσθησόμενα"
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "παύσω",
+          "second": "παύσεις",
+          "third": "παύσει"
+        },
+        "plural": {
+          "first": "παύσομεν",
+          "second": "παύσετε",
+          "third": "παύσουσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "παύσομαι",
+          "second": "παύσῃ/παύσει",
+          "third": "παύσεται"
+        },
+        "plural": {
+          "first": "παυσόμεθα",
+          "second": "παύσεσθε",
+          "third": "παύσονται"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "παυσθήσομαι",
+          "second": "παυσθήσῃ",
+          "third": "παυσθήσεται"
+        },
+        "plural": {
+          "first": "παυσθησόμεθα",
+          "second": "παυσθήσεσθε",
+          "third": "παυσθήσονται"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "παύσοιμι",
+          "second": "παύσοις",
+          "third": "παύσοι"
+        },
+        "plural": {
+          "first": "παύσοιμεν",
+          "second": "παύσοιτε",
+          "third": "παύσοιεν"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "παυσοίμην",
+          "second": "παύσοιο",
+          "third": "παύσοιτο"
+        },
+        "plural": {
+          "first": "παυσοίμεθα",
+          "second": "παύσοισθε",
+          "third": "παύσοιντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "παυσθησοίμην",
+          "second": "παυσθήσοιο",
+          "third": "παυσθήσοιτο"
+        },
+        "plural": {
+          "first": "παυσθησοίμεθα",
+          "second": "παυσθήσοισθε",
+          "third": "παυσθήσοιντο"
+        }
+      }
+    }
+  },
+  "aorist": {
+    "infinitive": {
+      "active": "παῦσαι",
+      "middle": "παύσασθαι",
+      "passive": "παυσθῆναι"
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "παύσας",
+            "genitive": "παύσαντος",
+            "dative": "παύσαντι",
+            "accusative": "παύσαντα",
+            "vocative": "παύσας"
+          },
+          "plural": {
+            "nominative": "παύσαντες",
+            "genitive": "παυσάντων",
+            "dative": "παύσασι",
+            "accusative": "παύσαντας",
+            "vocative": "παύσαντες"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "παύσασα",
+            "genitive": "παυσάσης",
+            "dative": "παυσάσῃ",
+            "accusative": "παύσασαν",
+            "vocative": "παύσασα"
+          },
+          "plural": {
+            "nominative": "παύσασαι",
+            "genitive": "παυσασῶν",
+            "dative": "παυσάσαις",
+            "accusative": "παυσάσας",
+            "vocative": "παύσασαι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "παῦσαν",
+            "genitive": "παύσαντος",
+            "dative": "παύσαντι",
+            "accusative": "παῦσαν",
+            "vocative": "παῦσαν"
+          },
+          "plural": {
+            "nominative": "παύσαντα",
+            "genitive": "παυσάντων",
+            "dative": "παύσασι",
+            "accusative": "παύσαντα",
+            "vocative": "παύσαντα"
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "παυσάμενος",
+            "genitive": "παυσαμένου",
+            "dative": "παυσαμένῳ",
+            "accusative": "παυσάμενον",
+            "vocative": "παυσάμενε"
+          },
+          "plural": {
+            "nominative": "παυσάμενοι",
+            "genitive": "παυσαμένων",
+            "dative": "παυσαμένοις",
+            "accusative": "παυσαμένους",
+            "vocative": "παυσάμενοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "παυσαμένη",
+            "genitive": "παυσαμένης",
+            "dative": "παυσαμένῃ",
+            "accusative": "παυσαμένην",
+            "vocative": "παυσαμένη"
+          },
+          "plural": {
+            "nominative": "παυσάμεναι",
+            "genitive": "παυσαμένων",
+            "dative": "παυσαμέναις",
+            "accusative": "παυσαμένας",
+            "vocative": "παυσάμεναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "παυσάμενον",
+            "genitive": "παυσαμένου",
+            "dative": "παυσαμένῳ",
+            "accusative": "παυσάμενον",
+            "vocative": "παυσάμενον"
+          },
+          "plural": {
+            "nominative": "παυσάμενα",
+            "genitive": "παυσαμένων",
+            "dative": "παυσαμένοις",
+            "accusative": "παυσάμενα",
+            "vocative": "παυσάμενα"
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "παυσθείς",
+            "genitive": "παυσθέντος",
+            "dative": "παυσθέντι",
+            "accusative": "παυσθέντα",
+            "vocative": "παυσθείς"
+          },
+          "plural": {
+            "nominative": "παυσθέντες",
+            "genitive": "παυσθέντων",
+            "dative": "παυσθεῖσι",
+            "accusative": "παυσθέντας",
+            "vocative": "παυσθέντες"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "παυσθεῖσα",
+            "genitive": "παυσθείσης",
+            "dative": "παυσθείσῃ",
+            "accusative": "παυσθεῖσαν",
+            "vocative": "παυσθεῖσα"
+          },
+          "plural": {
+            "nominative": "παυσθεῖσαι",
+            "genitive": "παυσθεισῶν",
+            "dative": "παυσθείσαις",
+            "accusative": "παυσθείσας",
+            "vocative": "παυσθεῖσαι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "παυσθέν",
+            "genitive": "παυσθέντος",
+            "dative": "παυσθέντι",
+            "accusative": "παυσθέν",
+            "vocative": "παυσθέν"
+          },
+          "plural": {
+            "nominative": "παυσθέντα",
+            "genitive": "παυσθέντων",
+            "dative": "παυσθεῖσι",
+            "accusative": "παυσθέντα",
+            "vocative": "παυσθέντα"
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "ἔπαυσα",
+          "second": "ἔπαυσας",
+          "third": "ἔπαυσε"
+        },
+        "plural": {
+          "first": "ἐπαύσαμεν",
+          "second": "ἐπαύσατε",
+          "third": "ἔπαυσαν"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ἐπαυσάμην",
+          "second": "ἐπαύσω",
+          "third": "ἐπαύσατο"
+        },
+        "plural": {
+          "first": "ἐπαυσάμεθα",
+          "second": "ἐπαύσασθε",
+          "third": "ἐπαύσαντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ἐπαύσθην",
+          "second": "ἐπαύσθης",
+          "third": "ἐπαύσθη"
+        },
+        "plural": {
+          "first": "ἐπαύσθημεν",
+          "second": "ἐπαύσθητε",
+          "third": "ἐπαύσθησαν"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "παῦσον",
+          "third": "παυσάτω"
+        },
+        "plural": {
+          "first": "",
+          "second": "παύσατε",
+          "third": "παυσάντων"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "παῦσαι",
+          "third": "παυσάσθω"
+        },
+        "plural": {
+          "first": "",
+          "second": "παύσασθε",
+          "third": "παυσάσθων"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "παύσθητι",
+          "third": "παυσθήτω"
+        },
+        "plural": {
+          "first": "",
+          "second": "παύσθητε",
+          "third": "παυσθέντων"
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "παύσω",
+          "second": "παύσῃς",
+          "third": "παύσῃ"
+        },
+        "plural": {
+          "first": "παύσωμεν",
+          "second": "παύσητε",
+          "third": "παύσωσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "παύσωμαι",
+          "second": "παύσῃ",
+          "third": "παύσηται"
+        },
+        "plural": {
+          "first": "παυσώμεθα",
+          "second": "παύσησθε",
+          "third": "παύσωνται"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "παυσθῶ",
+          "second": "παυσθῇς",
+          "third": "παυσθῇ"
+        },
+        "plural": {
+          "first": "παυσθῶμεν",
+          "second": "παυσθῆτε",
+          "third": "παυσθῶσι"
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "παύσαιμι",
+          "second": "παύσειας/παύσαις",
+          "third": "παύσειε/παύσαι"
+        },
+        "plural": {
+          "first": "παύσαιμεν",
+          "second": "παύσαιτε",
+          "third": "παύσειαν/παύσαιεν"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "παυσαίμην",
+          "second": "παύσαιο",
+          "third": "παύσαιτο"
+        },
+        "plural": {
+          "first": "παυσαίμεθα",
+          "second": "παύσαισθε",
+          "third": "παύσαιντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "παυσθείην",
+          "second": "παυσθείης",
+          "third": "παυσθείη"
+        },
+        "plural": {
+          "first": "παυσθεῖμεν/παυσθείημεν",
+          "second": "παυσθεῖτε/παυσθείητε",
+          "third": "παυσθεῖεν/παυσθείησαν"
+        }
+      }
+    }
+  },
+  "perfect": {
+    "infinitive": {
+      "active": "πεπαυκέναι",
+      "middle": "πεπαῦσθαι",
+      "passive": "πεπαῦσθαι"
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "πεπαυκώς",
+            "genitive": "πεπαυκότος",
+            "dative": "πεπαυκότι",
+            "accusative": "πεπαυκότα",
+            "vocative": "πεπαυκώς"
+          },
+          "plural": {
+            "nominative": "πεπαυκότες",
+            "genitive": "πεπαυκότων",
+            "dative": "πεπαυκόσι",
+            "accusative": "πεπαυκότας",
+            "vocative": "πεπαυκότες"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "πεπαυκυῖα",
+            "genitive": "πεπαυκυίας",
+            "dative": "πεπαυκυίᾳ",
+            "accusative": "πεπαυκυῖαν",
+            "vocative": "πεπαυκυῖα"
+          },
+          "plural": {
+            "nominative": "πεπαυκυῖαι",
+            "genitive": "πεπαυκυιῶν",
+            "dative": "πεπαυκυίαις",
+            "accusative": "πεπαυκυίας",
+            "vocative": "πεπαυκυῖαι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "πεπαυκός",
+            "genitive": "πεπαυκότος",
+            "dative": "πεπαυκότι",
+            "accusative": "πεπαυκός",
+            "vocative": "πεπαυκός"
+          },
+          "plural": {
+            "nominative": "πεπαυκότα",
+            "genitive": "πεπαυκότων",
+            "dative": "πεπαυκόσι",
+            "accusative": "πεπαυκότα",
+            "vocative": "πεπαυκότα"
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "πεπαυμένος",
+            "genitive": "πεπαυμένου",
+            "dative": "πεπαυμένῳ",
+            "accusative": "πεπαυμένον",
+            "vocative": "πεπαυμένε"
+          },
+          "plural": {
+            "nominative": "πεπαυμένοι",
+            "genitive": "πεπαυμένων",
+            "dative": "πεπαυμένοις",
+            "accusative": "πεπαυμένους",
+            "vocative": "πεπαυμένοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "πεπαυμένη",
+            "genitive": "πεπαυμένης",
+            "dative": "πεπαυμένῃ",
+            "accusative": "πεπαυμένην",
+            "vocative": "πεπαυμένη"
+          },
+          "plural": {
+            "nominative": "πεπαυμέναι",
+            "genitive": "πεπαυμένων",
+            "dative": "πεπαυμέναις",
+            "accusative": "πεπαυμένας",
+            "vocative": "πεπαυμέναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "πεπαυμένον",
+            "genitive": "πεπαυμένου",
+            "dative": "πεπαυμένῳ",
+            "accusative": "πεπαυμένον",
+            "vocative": "πεπαυμένον"
+          },
+          "plural": {
+            "nominative": "πεπαυμἐνα",
+            "genitive": "πεπαυμένων",
+            "dative": "πεπαυμένοις",
+            "accusative": "πεπαυμένα",
+            "vocative": "πεπαυμένα"
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "πεπαυμένος",
+            "genitive": "πεπαυμένου",
+            "dative": "πεπαυμένῳ",
+            "accusative": "πεπαυμένον",
+            "vocative": "πεπαυμένε"
+          },
+          "plural": {
+            "nominative": "πεπαυμένοι",
+            "genitive": "πεπαυμένων",
+            "dative": "πεπαυμένοις",
+            "accusative": "πεπαυμένους",
+            "vocative": "πεπαυμένοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "πεπαυμένη",
+            "genitive": "πεπαυμένης",
+            "dative": "πεπαυμένῃ",
+            "accusative": "πεπαυμένην",
+            "vocative": "πεπαυμένη"
+          },
+          "plural": {
+            "nominative": "πεπαυμέναι",
+            "genitive": "πεπαυμένων",
+            "dative": "πεπαυμέναις",
+            "accusative": "πεπαυμένας",
+            "vocative": "πεπαυμέναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "πεπαυμένον",
+            "genitive": "πεπαυμένου",
+            "dative": "πεπαυμένῳ",
+            "accusative": "πεπαυμένον",
+            "vocative": "πεπαυμένον"
+          },
+          "plural": {
+            "nominative": "πεπαυμἐνα",
+            "genitive": "πεπαυμένων",
+            "dative": "πεπαυμένοις",
+            "accusative": "πεπαυμένα",
+            "vocative": "πεπαυμένα"
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "πέπαυκα",
+          "second": "πέπαυκας",
+          "third": "πέπαυκε"
+        },
+        "plural": {
+          "first": "πεπαύκαμεν",
+          "second": "πεπαύκατε",
+          "third": "πεπαύκασι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "πέπαυμαι",
+          "second": "πέπαυσαι",
+          "third": "πέπαυται"
+        },
+        "plural": {
+          "first": "πεπαύμεθα",
+          "second": "πέπαυσθε",
+          "third": "πέπαυνται"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "πέπαυμαι",
+          "second": "πέπαυσαι",
+          "third": "πέπαυται"
+        },
+        "plural": {
+          "first": "πεπαύμεθα",
+          "second": "πέπαυσθε",
+          "third": "πέπαυνται"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "πέπαυκε",
+          "third": "πεπαυκέτω"
+        },
+        "plural": {
+          "first": "",
+          "second": "πεπαύκετε",
+          "third": "πεπαυκόντων"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "πέπαυσο",
+          "third": "πεπαύσθω"
+        },
+        "plural": {
+          "first": "",
+          "second": "πέπαυσθε",
+          "third": "πεπαύσθων"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "πέπαυσο",
+          "third": "πεπαύσθω"
+        },
+        "plural": {
+          "first": "",
+          "second": "πέπαυσθε",
+          "third": "πεπαύσθων"
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "πεπαύκω",
+          "second": "πεπαύκῃς",
+          "third": "πεπαύκῃ"
+        },
+        "plural": {
+          "first": "πεπαύκωμεν",
+          "second": "πεπαύκητε",
+          "third": "πεπαύκωσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "πεπαυμένος ὦ",
+          "second": "πεπαυμένος ᾖς",
+          "third": "πεπαυμένος ᾖ"
+        },
+        "plural": {
+          "first": "πεπαυμένοι ὦμεν",
+          "second": "πεπαυμένοι ἦτε",
+          "third": "πεπαυμένοι ὦσι"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "πεπαυμένος ὦ",
+          "second": "πεπαυμένος ᾖς",
+          "third": "πεπαυμένος ᾖ"
+        },
+        "plural": {
+          "first": "πεπαυμένοι ὦμεν",
+          "second": "πεπαυμένοι ἦτε",
+          "third": "πεπαυμένοι ὦσι"
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "πεπαύκοιμι/πεπαυκοίην",
+          "second": "πεπαύκοις/πεπαυκοίης",
+          "third": "πεπαύκοι/πεπαυκοίη"
+        },
+        "plural": {
+          "first": "πεπαύκοιμεν",
+          "second": "πεπαύκοιτε",
+          "third": "πεπαύκοιεν"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "πεπαυμένος εἴην",
+          "second": "πεπαυμένος εἴης",
+          "third": "πεπαυμένος εἴη"
+        },
+        "plural": {
+          "first": "πεπαυμένοι εἴημεν/εἶμεν",
+          "second": "πεπαυμένοι εἴητε/εἶτε",
+          "third": "πεπαυμένοι εἴησαν/εἶεν"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "πεπαυμένος εἴην",
+          "second": "πεπαυμένος εἴης",
+          "third": "πεπαυμένος εἴη"
+        },
+        "plural": {
+          "first": "πεπαυμένοι εἴημεν/εἶμεν",
+          "second": "πεπαυμένοι εἴητε/εἶτε",
+          "third": "πεπαυμένοι εἴησαν/εἶεν"
+        }
+      }
+    }
+  },
+  "pluperfect": {
+    "infinitive": {
+      "active": "",
+      "middle": "",
+      "passive": ""
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "ἐπεπαύκειν/ἐπεπαύκη",
+          "second": "ἐπεπαύκεις/ἐπεπαύκης",
+          "third": "ἐπεπαύκει"
+        },
+        "plural": {
+          "first": "ἐπεπαύκεμεν",
+          "second": "ἐπεπαύκετε",
+          "third": "ἐπεπαύκεσαν"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ἐπεπαύμην",
+          "second": "ἐπέπαυσο",
+          "third": "ἐπέπαυτο"
+        },
+        "plural": {
+          "first": "ἐπεπαύμεθα",
+          "second": "ἐπέπαυσθε",
+          "third": "ἐπέπαυντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ἐπεπαύμην",
+          "second": "ἐπέπαυσο",
+          "third": "ἐπέπαυτο"
+        },
+        "plural": {
+          "first": "ἐπεπαύμεθα",
+          "second": "ἐπέπαυσθε",
+          "third": "ἐπέπαυντο"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    }
+  }
+}

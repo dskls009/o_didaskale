@@ -1,0 +1,16 @@
+{
+    "singular": {
+      "nominative": "ὀφρύς",
+      "genitive": "ὀφρύος",
+      "dative": "ὀφρύι",
+      "accusative": "ὀφρύν",
+      "vocative": "ὀφρύ"
+    },
+    "plural": {
+      "nominative": "ὀφρύες",
+      "genitive": "ὀφρύων",
+      "dative": "ὀφρύσι",
+      "accusative": "ὀφρῦς",
+      "vocative": "ὀφρύες"
+    }
+  }

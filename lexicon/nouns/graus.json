@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "γραῦς",
+    "genitive": "γραός",
+    "dative": "γραί",
+    "accusative": "γραῦν",
+    "vocative": "γραῦ"
+  },
+  "plural": {
+    "nominative": "γρᾶες",
+    "genitive": "γραῶν",
+    "dative": "γραθσί",
+    "accusative": "γραῦς",
+    "vocative": "γρᾶες"
+  }
+}

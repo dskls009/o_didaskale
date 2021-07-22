@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "πλῆθος",
+    "genitive": "πλήθους",
+    "dative": "πλήθει",
+    "accusative": "πλῆθος",
+    "vocative": "πλῆθος"
+  },
+  "plural": {
+    "nominative": "πλήθη",
+    "genitive": "πληθῶν",
+    "dative": "πλήθεσι",
+    "accusative": "πλήθη",
+    "vocative": "πλήθη"
+  }
+}

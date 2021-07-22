@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "σύ",
+    "genitive": "σοῦ",
+    "dative": "σοί",
+    "accusative": "σέ",
+    "vocative": ""
+  },
+  "plural": {
+    "nominative": "ὑμεῖς",
+    "genitive": "ὑμῶν",
+    "dative": "ὑμῖν",
+    "accusative": "ὑμᾶς",
+    "vocative": ""
+  }
+}

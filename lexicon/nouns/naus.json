@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "ναῦς",
+    "genitive": "νεώς",
+    "dative": "νηί",
+    "accusative": "ναῦν",
+    "vocative": "ναῦ"
+  },
+  "plural": {
+    "nominative": "νῆες",
+    "genitive": "νεῶν",
+    "dative": "ναυσί",
+    "accusative": "ναῦς",
+    "vocative": "νῆες"
+  }
+}

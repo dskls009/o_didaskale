@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "γυνή",
+    "genitive": "γυναικός",
+    "dative": "γυναικί",
+    "accusative": "γυναῖκα",
+    "vocative": "γύναι"
+  },
+  "plural": {
+    "nominative": "γυναῖκες",
+    "genitive": "γυναικῶν",
+    "dative": "γυναιξί",
+    "accusative": "γυναῖκας",
+    "vocative": "γυναῖκες"
+  }
+}
