@@ -1,0 +1,1868 @@
+{
+  "present": {
+    "infinitive": {
+      "active": "ὁρᾶν",
+      "middle": "ὁρᾶσθαι",
+      "passive": "ὁρᾶσθαι"
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "ὁρῶν",
+            "genitive": "ὁρῶντος",
+            "dative": "ὁρῶντι",
+            "accusative": "ὁρῶντα",
+            "vocative": "ὁρῶν"
+          },
+          "plural": {
+            "nominative": "ὁρῶντες",
+            "genitive": "ὁρώντων",
+            "dative": "ὁρῶσι",
+            "accusative": "ὁρῶντας",
+            "vocative": "ὁρῶντες"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ὁρῶσα",
+            "genitive": "ὁρώσης",
+            "dative": "ὁρώσῃ",
+            "accusative": "ὁρῶσαν",
+            "vocative": "ὁρῶσα"
+          },
+          "plural": {
+            "nominative": "ὁρῶσαι",
+            "genitive": "ὁρωσῶν",
+            "dative": "ὁρώσαις",
+            "accusative": "ὁρώσας",
+            "vocative": "ὁρῶσαι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ὁρῶν",
+            "genitive": "ὁρῶντος",
+            "dative": "ὁρῶντι",
+            "accusative": "ὁρῶν",
+            "vocative": "ὁρῶν"
+          },
+          "plural": {
+            "nominative": "ὁρῶντα",
+            "genitive": "ὁρώντων",
+            "dative": "ὁρῶσι",
+            "accusative": "ὁρῶντα",
+            "vocative": "ὁρῶντα"
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "ὁρώμενος",
+            "genitive": "ὁρωμένου",
+            "dative": "ὁρωμένῳ",
+            "accusative": "ὁρώμενον",
+            "vocative": "ὁρώμενε"
+          },
+          "plural": {
+            "nominative": "ὁρώμενοι",
+            "genitive": "ὁρωμένων",
+            "dative": "ὁρωμένοις",
+            "accusative": "ὁρωμένους",
+            "vocative": "ὁρώμενοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ὁρωμένη",
+            "genitive": "ὁρωμένης",
+            "dative": "ὁρωμένῃ",
+            "accusative": "ὁρωμένην",
+            "vocative": "ὁρωμένη"
+          },
+          "plural": {
+            "nominative": "ὁρώμεναι",
+            "genitive": "ὁρωμένων",
+            "dative": "ὁρωμέναις",
+            "accusative": "ὁρωμένας",
+            "vocative": "ὁρώμεναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ὁρώμενον",
+            "genitive": "ὁρωμένου",
+            "dative": "ὁρωμένῳ",
+            "accusative": "ὁρώμενον",
+            "vocative": "ὁρώμενον"
+          },
+          "plural": {
+            "nominative": "ὁρώμενα",
+            "genitive": "ὁρωμένων",
+            "dative": "ὁρωμένοις",
+            "accusative": "ὁρώμενα",
+            "vocative": "ὁρώμενα"
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "ὁρώμενος",
+            "genitive": "ὁρωμένου",
+            "dative": "ὁρωμένῳ",
+            "accusative": "ὁρώμενον",
+            "vocative": "ὁρώμενε"
+          },
+          "plural": {
+            "nominative": "ὁρώμενοι",
+            "genitive": "ὁρωμένων",
+            "dative": "ὁρωμένοις",
+            "accusative": "ὁρωμένους",
+            "vocative": "ὁρώμενοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ὁρωμένη",
+            "genitive": "ὁρωμένης",
+            "dative": "ὁρωμένῃ",
+            "accusative": "ὁρωμένην",
+            "vocative": "ὁρωμένη"
+          },
+          "plural": {
+            "nominative": "ὁρώμεναι",
+            "genitive": "ὁρωμεμῶν",
+            "dative": "ὁρωμέναις",
+            "accusative": "ὁρωμένας",
+            "vocative": "ὁρώμεναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ὁρώμενον",
+            "genitive": "ὁρωμένου",
+            "dative": "ὁρωμένῳ",
+            "accusative": "ὁρώμενον",
+            "vocative": "ὁρώμενον"
+          },
+          "plural": {
+            "nominative": "ὁρώμενα",
+            "genitive": "ὁρωμένων",
+            "dative": "ὁρωμένοις",
+            "accusative": "ὁρώμενα",
+            "vocative": "ὁρώμενα"
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "ὁρῶ",
+          "second": "ὁρᾷς",
+          "third": "ὁρᾷ"
+        },
+        "plural": {
+          "first": "ὁρῶμεν",
+          "second": "ὁρᾶτε",
+          "third": "ὁρῶσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ὁρῶμαι",
+          "second": "ὁρᾷ",
+          "third": "ὁρᾶται"
+        },
+        "plural": {
+          "first": "ὁρώμεθα",
+          "second": "ὁρᾶσθε",
+          "third": "ὁρῶνται"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ὁρῶμαι",
+          "second": "ὁρᾷ",
+          "third": "ὁρᾶται"
+        },
+        "plural": {
+          "first": "ὁρώμεθα",
+          "second": "ὁρᾶσθε",
+          "third": "ὁρῶνται"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "ὅρα",
+          "third": "ὁράτω"
+        },
+        "plural": {
+          "first": "",
+          "second": "ὁρᾶτε",
+          "third": "ὁρώντων"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "ὁρῶ",
+          "third": "ὁράσθω"
+        },
+        "plural": {
+          "first": "",
+          "second": "ὁρᾶσθε",
+          "third": "ὁράσθων"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "ὁρῶ",
+          "third": "ὁράσθω"
+        },
+        "plural": {
+          "first": "",
+          "second": "ὁρᾶσθε",
+          "third": "ὁράσθων"
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "ὁρῶ",
+          "second": "ὁρᾷς",
+          "third": "ὁρᾷ"
+        },
+        "plural": {
+          "first": "ὁρῶμεν",
+          "second": "ὁρᾶτε",
+          "third": "ὁρῶσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ὁρῶμαι",
+          "second": "ὁρᾷ",
+          "third": "ὁρᾶται"
+        },
+        "plural": {
+          "first": "ὁρώμεθα",
+          "second": "ὁρᾶσθε",
+          "third": "ὁρῶνται"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ὁρῶμαι",
+          "second": "ὁρᾷ",
+          "third": "ὁρᾶται"
+        },
+        "plural": {
+          "first": "ὁρώμεθα",
+          "second": "ὁρᾶσθε",
+          "third": "ὁρῶνται"
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "ὁρῴην/ὁρῷμι",
+          "second": "ὁρῴης/ὁρῷς",
+          "third": "ὁρῴη/ὁρῷ"
+        },
+        "plural": {
+          "first": "ὁρῷμεν/ὁρῴημεν",
+          "second": "ὁρῷτε/ὁρῴητε",
+          "third": "ὁρῷεν/ὁρῴησαν"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ὁρῴμην",
+          "second": "ὁρῷο",
+          "third": "ὁρῷτο"
+        },
+        "plural": {
+          "first": "ὁρῴμεθα",
+          "second": "ὁρῷσθε",
+          "third": "ὁρῷντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ὁρῴμην",
+          "second": "ὁρῷο",
+          "third": "ὁρῷτο"
+        },
+        "plural": {
+          "first": "ὁρῴμεθα",
+          "second": "ὁρῷσθε",
+          "third": "ὁρῷντο"
+        }
+      }
+    }
+  },
+  "imperfect": {
+    "infinitive": {
+      "active": "",
+      "middle": "",
+      "passive": ""
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "ἑώρων",
+          "second": "ἑώρας",
+          "third": "ἑώρα"
+        },
+        "plural": {
+          "first": "ἑωρῶμεν",
+          "second": "ἑωρᾶτε",
+          "third": "ἑώρων"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ἑωρώμην",
+          "second": "ἑωρῶ",
+          "third": "ἑωρᾶτο"
+        },
+        "plural": {
+          "first": "ἑωρώμεθα",
+          "second": "ἑωρᾶσθε",
+          "third": "ἑωρῶντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ἑωρώμην",
+          "second": "ἑωρῶ",
+          "third": "ἑωρᾶτο"
+        },
+        "plural": {
+          "first": "ἑωρώμεθα",
+          "second": "ἑωρᾶσθε",
+          "third": "ἑωρῶντο"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    }
+  },
+  "future": {
+    "infinitive": {
+      "active": "",
+      "middle": "ὄψεσθαι",
+      "passive": "ὀφθήσεσθαι"
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "ὀψόμενος",
+            "genitive": "ὀψομένου",
+            "dative": "ὀψομένῳ",
+            "accusative": "ὀψόμενον",
+            "vocative": "ὀψόμενε"
+          },
+          "plural": {
+            "nominative": "ὀψόμενοι",
+            "genitive": "ὀψομένων",
+            "dative": "ὀψομένοις",
+            "accusative": "ὀψομέμους",
+            "vocative": "ὀψόμενοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ὀψομένη",
+            "genitive": "ὀψομένης",
+            "dative": "ὀψομένῃ",
+            "accusative": "ὀψομένην",
+            "vocative": "ὀψομένη"
+          },
+          "plural": {
+            "nominative": "ὀψόμεναι",
+            "genitive": "ὀψομένων",
+            "dative": "ὀψομέναις",
+            "accusative": "ὀψομένας",
+            "vocative": "ὀψόμεναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ὀψόμενον",
+            "genitive": "ὀψομένου",
+            "dative": "ὀψομένῳ",
+            "accusative": "ὀψόμενον",
+            "vocative": "ὀψόμενον"
+          },
+          "plural": {
+            "nominative": "ὀψόμενα",
+            "genitive": "ὀψομένων",
+            "dative": "ὀψομένοις",
+            "accusative": "ὀψόμενα",
+            "vocative": "ὀψόμενα"
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "ὀφθησόμενος",
+            "genitive": "ὀφθησομένου",
+            "dative": "ὀφθησομένῳ",
+            "accusative": "ὀφθησόμενον",
+            "vocative": "ὀφθησόμενε"
+          },
+          "plural": {
+            "nominative": "ὀφθησόμενοι",
+            "genitive": "ὀφθησομένων",
+            "dative": "ὀφθησομένοις",
+            "accusative": "ὀφθησομένους",
+            "vocative": "ὀφθησόμενος"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ὀφθησομένη",
+            "genitive": "ὀφθησομένης",
+            "dative": "ὀφθησομένῃ",
+            "accusative": "ὀφθησομένην",
+            "vocative": "ὀφθησομένη"
+          },
+          "plural": {
+            "nominative": "ὀφθησόμεναι",
+            "genitive": "ὀφθησομενῶν",
+            "dative": "ὀφθησομέναις",
+            "accusative": "ὀφθησομένας",
+            "vocative": "ὀφθησόμεναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ὀφθησόμενον",
+            "genitive": "ὀφθησομένου",
+            "dative": "ὀφθησομένῳ",
+            "accusative": "ὀφθησόμενον",
+            "vocative": "ὀφθησόμενον"
+          },
+          "plural": {
+            "nominative": "ὀφθησόμενα",
+            "genitive": "ὀφθησομένων",
+            "dative": "ὀφθησομένοις",
+            "accusative": "ὀφθησόμενα",
+            "vocative": "ὀφθησόμενα"
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ὄψομαι",
+          "second": "ὄψῃ/ὄψει",
+          "third": "ὄψεται"
+        },
+        "plural": {
+          "first": "ὀψόμεθα",
+          "second": "ὄψεσθε",
+          "third": "ὄψονται"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ὀφθήσομαι",
+          "second": "ὀφθήσῃ",
+          "third": "ὀφθήσεται"
+        },
+        "plural": {
+          "first": "ὀφθησόμεθα",
+          "second": "ὀφθήσεσθε",
+          "third": "ὀφθήσονται"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ὀψοίμην",
+          "second": "ὄψοιο",
+          "third": "ὄψοιτο"
+        },
+        "plural": {
+          "first": "ὀψοίμεθα",
+          "second": "ὄψοισθε",
+          "third": "ὄψοιντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ὀφθησοίμην",
+          "second": "ὀφθήσοιο",
+          "third": "ὀφθήσοιτο"
+        },
+        "plural": {
+          "first": "ὀφθησοίμεθα",
+          "second": "ὀφθήσοισθε",
+          "third": "ὀφθήσοιντο"
+        }
+      }
+    }
+  },
+  "aorist": {
+    "infinitive": {
+      "active": "ἰδεῖν",
+      "middle": "ἰδέσθαι",
+      "passive": "ὀφθῆναι"
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "ἰδών",
+            "genitive": "ἰδόντος",
+            "dative": "ἰδόντι",
+            "accusative": "ἰδόντα",
+            "vocative": "ἰδών"
+          },
+          "plural": {
+            "nominative": "ἰδόντες",
+            "genitive": "ἰδόντων",
+            "dative": "ἰδοῦσι",
+            "accusative": "ἰδόντας",
+            "vocative": "ἰδόντες"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ἰδοῦσα",
+            "genitive": "ἰδούσης",
+            "dative": "ἰδούσῃ",
+            "accusative": "ἰδοῦσαν",
+            "vocative": "ἰδοῦσα"
+          },
+          "plural": {
+            "nominative": "ἰδοῦσαι",
+            "genitive": "ἰδουσῶν",
+            "dative": "ἰδούσαις",
+            "accusative": "ἰδούσας",
+            "vocative": "ἰδοῦσαι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ἰδόν",
+            "genitive": "ἰδόντος",
+            "dative": "ἰδόντι",
+            "accusative": "ἰδόν",
+            "vocative": "ἰδόν"
+          },
+          "plural": {
+            "nominative": "ἰδόντα",
+            "genitive": "ἰδόντων",
+            "dative": "ἰδοῦσι",
+            "accusative": "ἰδόντα",
+            "vocative": "ἰδόντα"
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "ἰδόμενος",
+            "genitive": "ἰδομένου",
+            "dative": "ἰδομένῳ",
+            "accusative": "ἰδόμενον",
+            "vocative": "ἰδόμενε"
+          },
+          "plural": {
+            "nominative": "ἰδόμενοι",
+            "genitive": "ἰδομένων",
+            "dative": "ἰδομένοις",
+            "accusative": "ἰδομένους",
+            "vocative": "ἰδόμενος"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ἰδομένη",
+            "genitive": "ἰδομένης",
+            "dative": "ἰδομένῃ",
+            "accusative": "ἰδομένην",
+            "vocative": "ἰδομένη"
+          },
+          "plural": {
+            "nominative": "ἰδόμεναι",
+            "genitive": "ἰδομένων",
+            "dative": "ἰδομέναις",
+            "accusative": "ἰδομένας",
+            "vocative": "ἰδόμεναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ἰδόμενον",
+            "genitive": "ἰδομένου",
+            "dative": "ἰδομένῳ",
+            "accusative": "ἰδόμενον",
+            "vocative": "ἰδόμενον"
+          },
+          "plural": {
+            "nominative": "ἰδόμενα",
+            "genitive": "ἰδομένων",
+            "dative": "ἰδομένοις",
+            "accusative": "ἰδόμενα",
+            "vocative": "ἰδόμενα"
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "ὀφθείς",
+            "genitive": "ὀφθέντος",
+            "dative": "ὀφθέντι",
+            "accusative": "ὀφθέντα",
+            "vocative": "ὀφθείς"
+          },
+          "plural": {
+            "nominative": "ὀφθέντες",
+            "genitive": "ὀφθέντων",
+            "dative": "ὀφθεῖσι",
+            "accusative": "ὀφθέντας",
+            "vocative": "ὀφθέντες"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ὀφθεῖσα",
+            "genitive": "ὀφθείσης",
+            "dative": "ὀφθείσῃ",
+            "accusative": "ὀφθεῖσαν",
+            "vocative": "ὀφθεῖσα"
+          },
+          "plural": {
+            "nominative": "ὀφθεῖσαι",
+            "genitive": "ὀφθεισῶν",
+            "dative": "ὀφθείσαις",
+            "accusative": "ὀφθείσας",
+            "vocative": "ὀφθεῖσαι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ὀφθέν",
+            "genitive": "ὀφθέντος",
+            "dative": "ὀφθέντι",
+            "accusative": "ὀφθέν",
+            "vocative": "ὀφθέν"
+          },
+          "plural": {
+            "nominative": "ὀφθέντα",
+            "genitive": "ὀφθέντων",
+            "dative": "ὀφθεῖσι",
+            "accusative": "ὀφθέντα",
+            "vocative": "ὀφθέντα"
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "εἶδον",
+          "second": "εἶδες",
+          "third": "εἶδε"
+        },
+        "plural": {
+          "first": "εἴδομεν",
+          "second": "εἴδετε",
+          "third": "εἶδον"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "εἰδόμην",
+          "second": "εἴδου",
+          "third": "εἴδετο"
+        },
+        "plural": {
+          "first": "εἰδόμεθα",
+          "second": "εἴδεσθε",
+          "third": "εἴδοντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ὤφθην",
+          "second": "ὤφθης",
+          "third": "ὤφθη"
+        },
+        "plural": {
+          "first": "ὤφθημεν",
+          "second": "ὤφθητε",
+          "third": "ὤφθησαν"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "ἰδέ/ἴδε",
+          "third": "ἰδέτω"
+        },
+        "plural": {
+          "first": "",
+          "second": "ἴδετε",
+          "third": "ἰδόντων"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "ἰδοῦ",
+          "third": "ἰδέσθω"
+        },
+        "plural": {
+          "first": "",
+          "second": "ἴδεσθε",
+          "third": "ἰδέσθων"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "ὄφθητι",
+          "third": "ὀφθήτω"
+        },
+        "plural": {
+          "first": "",
+          "second": "ὄφθητε",
+          "third": "ὀφθέντων"
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "ἴδω",
+          "second": "ἴδῃς",
+          "third": "ἴδῃ"
+        },
+        "plural": {
+          "first": "ἴδωμεν",
+          "second": "ἴδητε",
+          "third": "ἴδωσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ἴδωμαι",
+          "second": "ἴδῃ",
+          "third": "ἴδηται"
+        },
+        "plural": {
+          "first": "ἰδώμεθα",
+          "second": "ἴδησθε",
+          "third": "ἴδωνται"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ὀφθῶ",
+          "second": "ὀφθῇς",
+          "third": "ὀφθῇ"
+        },
+        "plural": {
+          "first": "ὀφθῶμεν",
+          "second": "ὀφθῆτε",
+          "third": "ὀφθῶσι"
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "ἴδοιμι",
+          "second": "ἴδοις",
+          "third": "ἴδοι"
+        },
+        "plural": {
+          "first": "ἴδοιμεν",
+          "second": "ἴδοιτε",
+          "third": "ἴδοιεν"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ἰδοίμην",
+          "second": "ἴδοιο",
+          "third": "ἴδοιτο"
+        },
+        "plural": {
+          "first": "ἰδοίμεθα",
+          "second": "ἴδοισθε",
+          "third": "ἴδοιντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ὀφθείην",
+          "second": "ὀφθείης",
+          "third": "ὀφθείη"
+        },
+        "plural": {
+          "first": "ὀφθεῖμεν/ὀφθείημεν",
+          "second": "ὀφθεῖτε/ὀφθείητε",
+          "third": "ὀφθεῖεν/ὀφθείησαν"
+        }
+      }
+    }
+  },
+  "perfect": {
+    "infinitive": {
+      "active": "ἑωρακέναι/ἑορακέναι/ὀπωπέναι",
+      "middle": "ἑωρᾶσθαι/ἑορᾶσθαι/ὦφθαι",
+      "passive": "ἑωρᾶσθαι/ἑορᾶσθαι/ὦφθαι"
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "ἑωρακώς/ἑορακώς/ὀπωπώς",
+            "genitive": "ἑωρακότος/ἑορακότος/ὀπωπότος",
+            "dative": "ἑωρακότι/ἑορακότι/ὀπωπότι",
+            "accusative": "ἑωρακότα/ἑορακότα/ὀπωπότα",
+            "vocative": "ἑωρακώς/ἑορακώς/ὀπωπώς"
+          },
+          "plural": {
+            "nominative": "ἑωρακότες/ἑορακότες/ὀπωπότες",
+            "genitive": "ἑωρακότων/ἑορακότων/ὀπωπότων",
+            "dative": "ἑωρακόσι/ἑορακόσι/ὀπωπόσι",
+            "accusative": "ἑωρακότας/ἑορακότας/ὀπωπότας",
+            "vocative": "ἑωρακότες/ἑορακότες/ὀπωπότες"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ἑωρακυῖα/ἑορακυῖα/ὀπωπυῖα",
+            "genitive": "ἑωρακυίας/ἑορακυίας/ὀπωπυίας",
+            "dative": "ἑωρακυίᾳ/ἑορακυίᾳ/ὀπωπυίᾳ",
+            "accusative": "ἑωρακυῖαν/ἑορακυῖαν/ὀπωπυῖαν",
+            "vocative": "ἑωρακυῖα/ἑορακυῖα/ὀπωπυῖα"
+          },
+          "plural": {
+            "nominative": "ἑωρακυῖαι/ἑορακυῖαι/ὀπωπυῖαι",
+            "genitive": "ἑωρακυιῶν/ἑορακυιῶν/ὀπωπυιῶν",
+            "dative": "ἑωρακυίαις/ἑορακυίαις/ὀπωπυίαις",
+            "accusative": "ἑωρακυίας/ἑορακυίας/ὀπωπυίας",
+            "vocative": "ἑωρακυῖαι/ἑορακυῖαι/ὀπωπυῖαι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ἑωρακός/ἑορακός/ὀπωπός",
+            "genitive": "ἑωρακότος/ἑορακότος/ὀπωπότος",
+            "dative": "ἑωρακότι/ἑορακότι/ὀπωπότι",
+            "accusative": "ἑωρακός/ἑορακός/ὀπωπός",
+            "vocative": "ἑωρακός/ἑορακός/ὀπωπός"
+          },
+          "plural": {
+            "nominative": "ἑωρακότα/ἑορακότα/ὀπωπότα",
+            "genitive": "ἑωρακότων/ἑορακότων/ὀπωπότων",
+            "dative": "ἑωρακόσι/ἑορακόσι/ὀπωπόσι",
+            "accusative": "ἑωρακότα/ἑορακότα/ὀπωπότα",
+            "vocative": "ἑωρακότα/ἑορακότα/ὀπωπότα"
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "ἑωραμένος/ἑοραμένος/ὠμμένος",
+            "genitive": "ἑωραμένου/ἑοραμένου/ὠμμένου",
+            "dative": "ἑωραμένῳ/ἑοραμένῳ/ὠμμένῳ",
+            "accusative": "ἑωραμένον/ἑοραμένον/ὠμμένον",
+            "vocative": "ἑωραμένε/ἑοραμένε/ὠμμένε"
+          },
+          "plural": {
+            "nominative": "ἑωραμένοι/ἑοραμένοι/ὠμμένοι",
+            "genitive": "ἑωραμένων/ἑοραμένων/ὠμμένων",
+            "dative": "ἑωραμένοις/ἑοραμένοις/ὠμμένοις",
+            "accusative": "ἑωραμένους/ἑοραμένους/ὠμμένους",
+            "vocative": "ἑωραμένοι/ἑοραμένοι/ὠμμένοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ἑωραμένη/ἑοραμένη/ὠμμένη",
+            "genitive": "ἑωραμένης/ἑοραμένης/ὠμμένης",
+            "dative": "ἑωραμένῃ/ἑοραμένῃ/ὠμμένῃ",
+            "accusative": "ἑωραμένην/ἑοραμένην/ὠμμένην",
+            "vocative": "ἑωραμένη/ἑοραμένη/ὠμμένη"
+          },
+          "plural": {
+            "nominative": "ἑωραμέναι/ἑοραμέναι/ὠμμέναι",
+            "genitive": "ἑωραμένων/ἑοραμένων/ὠμμένων",
+            "dative": "ἑωραμέναις/ἑοραμέναις/ὠμμέναις",
+            "accusative": "ἑωραμένας/ἑοραμένας/ὠμμένας",
+            "vocative": "ἑωραμέναι/ἑοραμέναι/ὠμμέναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ἑωραμένον/ἑοραμένον/ὠμμένον",
+            "genitive": "ἑωραμένου/ἑοραμένου/ὠμμένου",
+            "dative": "ἑωραμένῳ/ἑοραμένῳ/ὠμμένῳ",
+            "accusative": "ἑωραμένον/ἑοραμένον/ὠμμένον",
+            "vocative": "ἑωραμένον/ἑοραμένον/ὠμμένον"
+          },
+          "plural": {
+            "nominative": "ἑωραμένα/ἑοραμένα/ὠμμένα",
+            "genitive": "ἑωραμένων/ἑοραμένων/ὠμμένων",
+            "dative": "ἑωραμένοις/ἑοραμένοις/ὠμμένοις",
+            "accusative": "ἑωραμένα/ἑοραμένα/ὠμμένα",
+            "vocative": "ἑωραμένα/ἑοραμένα/ὠμμένα"
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "ἑωραμένος/ἑοραμένος/ὠμμένος",
+            "genitive": "ἑωραμένου/ἑοραμένου/ὠμμένου",
+            "dative": "ἑωραμένῳ/ἑοραμένῳ/ὠμμένῳ",
+            "accusative": "ἑωραμένον/ἑοραμένον/ὠμμένον",
+            "vocative": "ἑωραμένε/ἑοραμένε/ὠμμένε"
+          },
+          "plural": {
+            "nominative": "ἑωραμένοι/ἑοραμένοι/ὠμμένοι",
+            "genitive": "ἑωραμένων/ἑοραμένων/ὠμμένων",
+            "dative": "ἑωραμένοις/ἑοραμένοις/ὠμμένοις",
+            "accusative": "ἑωραμένους/ἑοραμένους/ὠμμένους",
+            "vocative": "ἑωραμένοι/ἑοραμένοι/ὠμμένοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ἑωραμένη/ἑοραμένη/ὠμμένη",
+            "genitive": "ἑωραμένης/ἑοραμένης/ὠμμένης",
+            "dative": "ἑωραμένῃ/ἑοραμένῃ/ὠμμένῃ",
+            "accusative": "ἑωραμένην/ἑοραμένην/ὠμμένην",
+            "vocative": "ἑωραμένη/ἑοραμένη/ὠμμένη"
+          },
+          "plural": {
+            "nominative": "ἑωραμέναι/ἑοραμέναι/ὠμμέναι",
+            "genitive": "ἑωραμένων/ἑοραμένων/ὠμμένων",
+            "dative": "ἑωραμέναις/ἑοραμέναις/ὠμμέναις",
+            "accusative": "ἑωραμένας/ἑοραμένας/ὠμμένας",
+            "vocative": "ἑωραμέναι/ἑοραμέναι/ὠμμέναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ἑωραμένον/ἑοραμένον/ὠμμένον",
+            "genitive": "ἑωραμένου/ἑοραμένου/ὠμμένου",
+            "dative": "ἑωραμένῳ/ἑοραμένῳ/ὠμμένῳ",
+            "accusative": "ἑωραμένον/ἑοραμένον/ὠμμένον",
+            "vocative": "ἑωραμένον/ἑοραμένον/ὠμμένον"
+          },
+          "plural": {
+            "nominative": "ἑωραμένα/ἑοραμένα/ὠμμένα",
+            "genitive": "ἑωραμένων/ἑοραμένων/ὠμμένων",
+            "dative": "ἑωραμένοις/ἑοραμένοις/ὠμμένοις",
+            "accusative": "ἑωραμένα/ἑοραμένα/ὠμμένα",
+            "vocative": "ἑωραμένα/ἑοραμένα/ὠμμένα"
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "ἑώρακα/ἑόρακα/ὄπωπα",
+          "second": "ἑώρακας/ἑόρακας/ὄπωπας",
+          "third": "ἑώρακε/ἑόρακε/ὄπωπε"
+        },
+        "plural": {
+          "first": "ἑωράκαμεν/ἑωράκαμεν/ὀπώπαμεν",
+          "second": "ἑωράκατε/ἑωράκατε/ὀπώπατε",
+          "third": "ἑωράκασι/ἑωράκασι/ὀπώπασι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ἑώραμαι/ἑόραμαι/ὦμμαι",
+          "second": "ἑώρασαι/ἑόρασαι/ὦψαι",
+          "third": "ἑώραται/ἑόραται/ὦπται"
+        },
+        "plural": {
+          "first": "ἑωράμεθα/ἑοράμεθα/ὤμμεθα",
+          "second": "ἑώρασθε/ἑόρασθε/ὦφθε",
+          "third": "ἑώρανται/ἑόρανται/ὤπαται"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ἑώραμαι/ἑόραμαι/ὦμμαι",
+          "second": "ἑώρασαι/ἑόρασαι/ὦψαι",
+          "third": "ἑώραται/ἑόραται/ὦπται"
+        },
+        "plural": {
+          "first": "ἑωράμεθα/ἑοράμεθα/ὤμμεθα",
+          "second": "ἑώρασθε/ἑόρασθε/ὦφθε",
+          "third": "ἑώρανται/ἑόρανται/ὤπαται"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "ἑώρακε/ἑόρακε/ὄπωπε",
+          "third": "ἑωρακέτω/ἑορακέτω/ὀπωπέτω"
+        },
+        "plural": {
+          "first": "",
+          "second": "ἑωράκετε/ἑοράκετε/ὀπώπετε",
+          "third": "ἑωρακόντων/ἑορακόντων/ὀπωπόντων"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "ἑώρασο/ἑόρασο/ὦψο",
+          "third": "ἑωράσθω/ἑοράσθω/ὤφθω"
+        },
+        "plural": {
+          "first": "",
+          "second": "ἑώρασθε/ἑόρασθε/ὦφθε",
+          "third": "ἑωράσθων/ἑοράσθων/ὤφθων"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "ἑώρασο/ἑόρασο/ὦψο",
+          "third": "ἑωράσθω/ἑοράσθω/ὤφθω"
+        },
+        "plural": {
+          "first": "",
+          "second": "ἑώρασθε/ἑόρασθε/ὦφθε",
+          "third": "ἑωράσθων/ἑοράσθων/ὤφθων"
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "ἑωράκω/ἑοράκω/ὀπώπω",
+          "second": "ἑωράκῃς/ἑοράκῃς/ὀπώπῃς",
+          "third": "ἑωράκῃ/ἑοράκῃ/ὀπώπῃ"
+        },
+        "plural": {
+          "first": "ἑωράκωμεν/ἑοράκωμεν/ὀπώπωμεν",
+          "second": "ἑωράκητε/ἑοράκητε/ὀπώπητε",
+          "third": "ἑωράκωσι/ἑοράκωσι/ὀπώπωσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ἑωραμένος ὦ/ἑοραμένος ὦ/ὠμμένος ὦ",
+          "second": "ἑωραμένος ᾖς/ἑοραμένος ᾖς/ὠμμένος ᾖς",
+          "third": "ἑωραμένος ᾖ/ἑοραμένος ᾖ/ὠμμένος ᾖ"
+        },
+        "plural": {
+          "first": "ἑωραμένοι ὦμεν/ἑοραμένοι ὦμεν/ὠμμένοι ὦμεν",
+          "second": "ἑωραμένοι ἦτε/ἑοραμένοι ἦτε/ὠμμένοι ἦτε",
+          "third": "ἑωραμένοι ὦσι/ἑοραμένοι ὦσι/ὠμμένοι ὦσι"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ἑωραμένος ὦ/ἑοραμένος ὦ/ὠμμένος ὦ",
+          "second": "ἑωραμένος ᾖς/ἑοραμένος ᾖς/ὠμμένος ᾖς",
+          "third": "ἑωραμένος ᾖ/ἑοραμένος ᾖ/ὠμμένος ᾖ"
+        },
+        "plural": {
+          "first": "ἑωραμένοι ὦμεν/ἑοραμένοι ὦμεν/ὠμμένοι ὦμεν",
+          "second": "ἑωραμένοι ἦτε/ἑοραμένοι ἦτε/ὠμμένοι ἦτε",
+          "third": "ἑωραμένοι ὦσι/ἑοραμένοι ὦσι/ὠμμένοι ὦσι"
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "ἑωράκοιμι/ἑωρακοίην/ἑοράκοιμι/ἑορακοίην/ὀπώποιμι/ὀπωποίην",
+          "second": "ἑωράκοις/ἑωρακοίης/ἑοράκοις/ἑορακοίης/ὀπώποις/ὀπωποίης",
+          "third": "ἑωράκοι/ἑωρακοίη/ἑοράκοι/ἑορακοίη/ὀπώποι/ὀπωποίη"
+        },
+        "plural": {
+          "first": "ἑωράκοιμεν/ἑοράκοιμεν/ὀπώποιμεν",
+          "second": "ἑωράκοιτε/ἑοράκοιτε/ὀπώποιτε",
+          "third": "ἑωράκοιεν/ἑοράκοιεν/ὀπώποιεν"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ἑωραμένος εἴην/ἑοραμένος εἴην/ὠμμένος εἴην",
+          "second": "ἑωραμένος εἴης/ἑοραμένος εἴης/ὠμμένος εἴης",
+          "third": "ἑωραμένος εἴη/ἑοραμένος εἴη/ὠμμένος εἴη"
+        },
+        "plural": {
+          "first": "ἑωραμένοι εἴημεν/εἶμεν/ἑοραμένοι εἴημεν/εἶμεν/ὠμμένοι εἴημεν/εἶμεν",
+          "second": "ἑωραμένοι εἴητε/εἶτε/ἑοραμένοι εἴητε/εἶτε/ὠμμένοι εἴητε/εἶτε",
+          "third": "ἑωραμένοι εἴησαν/εἶεν/ἑοραμένοι εἴησαν/εἶεν/ὠμμένοι εἴησαν/εἶεν"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ἑωραμένος εἴην/ἑοραμένος εἴην/ὠμμένος εἴην",
+          "second": "ἑωραμένος εἴης/ἑοραμένος εἴης/ὠμμένος εἴης",
+          "third": "ἑωραμένος εἴη/ἑοραμένος εἴη/ὠμμένος εἴη"
+        },
+        "plural": {
+          "first": "ἑωραμένοι εἴημεν/εἶμεν/ἑοραμένοι εἴημεν/εἶμεν/ὠμμένοι εἴημεν/εἶμεν",
+          "second": "ἑωραμένοι εἴητε/εἶτε/ἑοραμένοι εἴητε/εἶτε/ὠμμένοι εἴητε/εἶτε",
+          "third": "ἑωραμένοι εἴησαν/εἶεν/ἑοραμένοι εἴησαν/εἶεν/ὠμμένοι εἴησαν/εἶεν"
+        }
+      }
+    }
+  },
+  "pluperfect": {
+    "infinitive": {
+      "active": "",
+      "middle": "",
+      "passive": ""
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "ἑωράκειν/ἑωράκη",
+          "second": "ἑωράκεις/ἑωράκης",
+          "third": "ἑωράκει"
+        },
+        "plural": {
+          "first": "ἑωράκεμεν",
+          "second": "ἑωράκετε",
+          "third": "ἑωράκεσαν"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ἑωράμην",
+          "second": "ἑώρᾱσο",
+          "third": "ἑώρᾱτο"
+        },
+        "plural": {
+          "first": "ἑωράμεθα",
+          "second": "ἑώρᾱσθε",
+          "third": "ἑώρᾱντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ἑωράμην",
+          "second": "ἑώρᾱσο",
+          "third": "ἑώρᾱτο"
+        },
+        "plural": {
+          "first": "ἑωράμεθα",
+          "second": "ἑώρᾱσθε",
+          "third": "ἑώρᾱντο"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    }
+  }
+}
