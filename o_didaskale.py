@@ -1088,8 +1088,8 @@ def conjugator_pluperfect(verb_json, description):
 @bot.command(name='info')
 async def info(ctx):
   em = discord.Embed(title = "Χαῖρε! I'm a bot that seeks to help ancient greek students.", color = discord.Color.blue())
-  em.add_field(name="You can look up declension paradigms, verb paradigms, articles, pronouns, adjectives, etc.\nTry these:", value="!articles\n!pronouns\n!nouns\n!adjectives\n!verbs")
-  em.add_field(name="To look up words, type:", value="!search <class> <word>\n<class> would be noun, adjective, pronoun, verb, etc.\nReminder:\n-αυ/ευ/ου = -au/eu/ou\nη/ε = e\nω/ο = o\nυ = y\nγγ/γκ/γχ = ng/nk/nkh\nῥ = rh")
+  em.add_field(name="You can look up declension paradigms, verb paradigms, articles, pronouns, adjectives, etc.\nTry these:", value=".articles\n.pronouns\n.nouns\n.adjectives\n.verbs")
+  em.add_field(name="To look up words, type:", value=".search <class> <word>\n<class> would be noun, adjective, pronoun, verb, etc.\nReminder:\n-αυ/ευ/ου = -au/eu/ou\nη/ε = e\nω/ο = o\nυ = y\nγγ/γκ/γχ = ng/nk/nkh\nῥ = rh")
   await ctx.send(embed=em)
 
 @bot.command(name='search')
@@ -1102,49 +1102,49 @@ async def search(ctx, arg1, arg2):
 @bot.command(name='pronouns')
 async def pronouns(ctx):
   em = discord.Embed(title = "You can look up all sorts of pronouns.", color = discord.Color.blue())
-  em.add_field(name="Try these:", value="!ego\n!sy")
+  em.add_field(name="Try these:", value=".ego\n.sy")
   await ctx.send(embed=em)
 
 @bot.command(name='nouns')
 async def nouns(ctx):
   em = discord.Embed(title = "You can look up declension paradigms according to Reading Greek division.", color = discord.Color.blue())
-  em.add_field(name="Try these:", value="!1a\n!1b\n!1c\n!1d1\n!1d2\n!2a\n!2b\n!3a1\n!3a2\n!3b\n!3c\n!3d1\n!3d2\n!3e1\n!3e2\n!3f\n!3g\n!3h\n!irregular_nouns")
+  em.add_field(name="Try these:", value=".1a\n.1b\n.1c\n.1d1\n.1d2\n.2a\n.2b\n.3a1\n.3a2\n.3b\n.3c\n.3d1\n.3d2\n.3e1\n.3e2\n.3f\n.3g\n.3h\n.irregular_nouns")
   await ctx.send(embed=em)
 
 @bot.command(name='irregular_nouns')
 async def irregular_nouns(ctx):
   em = discord.Embed(title="You can look up the irregular nouns declension.", color = discord.Color.blue())
-  em.add_field(name="Try these:", value="!zeus\n!naus\n!graus")
+  em.add_field(name="Try these:", value=".zeus\n.naus\n.graus")
   await ctx.send(embed=em)
 
 @bot.command(name='articles')
 async def articles(ctx):
   em = discord.Embed(title = "You can look up the articles declension.", color = discord.Color.blue())
-  em.add_field(name="Try these:", value="!masculine\n!feminine\n!neuter")
+  em.add_field(name="Try these:", value=".masculine\n.feminine\n.neuter")
   await ctx.send(embed=em)
 
 @bot.command(name='adjectives')
 async def adjectives(ctx):
   em = discord.Embed(title = "You can look up adjectives declension paradigms.", color = discord.Color.blue())
-  em.add_field(name="Try these:", value="!os_a_on\n!os_e_on\n!on_on\n!es_es")
+  em.add_field(name="Try these:", value=".os_a_on\n.os_e_on\n.on_on\n.es_es")
   await ctx.send(embed=em)
 
 @bot.command(name='verbs')
 async def verbs(ctx):
   em = discord.Embed(title = "You can look up verb paradigms.", color = discord.Color.blue())
-  em.add_field(name="Try these:", value="!non_contracteds\n!contracteds\n!irregular_verbs")
+  em.add_field(name="Try these:", value=".non_contracteds\n.contracteds\n.irregular_verbs")
   await ctx.send(embed=em)
 
 @bot.command(name='contracteds')
 async def contracteds(ctx):
   em = discord.Embed(title = "You can look up contracted conjugation paradigms.", color = discord.Color.blue())
-  em.add_field(name="Try these:", value="!contracted_alpha tenses\n!contracted_alpha participle_present\n!contracted_alpha participle_future\n!contracted_alpha participle_aorist\n!contracted_alpha participle_perfect")
+  em.add_field(name="Try these:", value=".contracted_alpha tenses\n.contracted_alpha participle_present\n.contracted_alpha participle_future\n.contracted_alpha participle_aorist\n.contracted_alpha participle_perfect")
   await ctx.send(embed=em)
-#\n!contracted_epsilon tenses/participle_present/participle_future/participle_aorist/participle_perfect\n!contracted_omikron tenses/participle_present/participle_future/participle_aorist/participle_perfect
+#\n.contracted_epsilon tenses/participle_present/participle_future/participle_aorist/participle_perfect\n.contracted_omikron tenses/participle_present/participle_future/participle_aorist/participle_perfect
 @bot.command(name='non_contracteds')
 async def non_contracteds(ctx):
   em = discord.Embed(title = "You can look up contracted conjugation paradigms.", color = discord.Color.blue())
-  em.add_field(name="Try these:", value="!non_contracted tenses\n!non_contracted participle_present\n!non_contracted participle_future\n!non_contracted participle_aorist\n!non_contracted participle_perfect")
+  em.add_field(name="Try these:", value=".non_contracted tenses\n.non_contracted participle_present\n.non_contracted participle_future\n.non_contracted participle_aorist\n.non_contracted participle_perfect")
   await ctx.send(embed=em)
 
 @bot.command(name='non_contracted')
@@ -1516,7 +1516,7 @@ async def contracted_omikron(ctx):
 @bot.command(name='irregular_verbs')
 async def irregular_verbs(ctx):
   em = discord.Embed(title="You can look up irregular verbs conjugations.", color = discord.Color.blue())
-  em.add_field(name="Try these:", value="!eimi")
+  em.add_field(name="Try these:", value=".eimi")
   await ctx.send(embed=em)
 
 @bot.command(name='eimi')
