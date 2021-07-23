@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "ῥόδον",
+    "genitive": "ῥόδου",
+    "dative": "ῥόδῳ",
+    "accusative": "ῥόδον",
+    "vocative": "ῥόδον"
+  },
+  "plural": {
+    "nominative": "ῥόδα",
+    "genitive": "ῥόδων",
+    "dative": "ῥόδοις",
+    "accusative": "ῥόδα",
+    "vocative": "ῥόδα"
+  }
+}

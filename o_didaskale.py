@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-bot = commands.Bot(command_prefix='!')
+bot = commands.Bot(command_prefix='.')
 
 @bot.event
 async def on_ready():
@@ -1089,7 +1089,15 @@ def conjugator_pluperfect(verb_json, description):
 async def info(ctx):
   em = discord.Embed(title = "Χαῖρε! I'm a bot that seeks to help ancient greek students.", color = discord.Color.blue())
   em.add_field(name="You can look up declension paradigms, verb paradigms, articles, pronouns, adjectives, etc.\nTry these:", value="!articles\n!pronouns\n!nouns\n!adjectives\n!verbs")
+  em.add_field(name="To look up words, type:", value="!search <class> <word>\n<class> would be noun, adjective, pronoun, verb, etc.\nReminder:\n-αυ/ευ/ου = -au/eu/ou\nη/ε = e\nω/ο = o\nυ = y\nγγ/γκ/γχ = ng/nk/nkh\nῥ = rh")
   await ctx.send(embed=em)
+
+@bot.command(name='search')
+async def search(ctx, arg1, arg2):
+  with open (f"lexicon/{arg1.lower()}s/{arg2.lower()}.json", "r", encoding='utf8') as f:
+    data = json.load(f)
+    em = declinator(data, arg2.capitalize())
+    await ctx.send(embed = em)
 
 @bot.command(name='pronouns')
 async def pronouns(ctx):

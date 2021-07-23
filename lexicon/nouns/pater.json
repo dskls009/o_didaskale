@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "πατήρ",
+    "genitive": "πατρός/πατέρος",
+    "dative": "πατρί/πατέρι",
+    "accusative": "πατέρα",
+    "vocative": "πάτερ"
+  },
+  "plural": {
+    "nominative": "πατέρες",
+    "genitive": "πατέρων/πατρῶν",
+    "dative": "πατράσι",
+    "accusative": "πατέρας",
+    "vocative": "πατέρες"
+  }
+}
