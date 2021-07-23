@@ -1089,15 +1089,157 @@ def conjugator_pluperfect(verb_json, description):
 async def info(ctx):
   em = discord.Embed(title = "Χαῖρε! I'm a bot that seeks to help ancient greek students.", color = discord.Color.blue())
   em.add_field(name="You can look up declension paradigms, verb paradigms, articles, pronouns, adjectives, etc.\nTry these:", value=".articles\n.pronouns\n.nouns\n.adjectives\n.verbs")
-  em.add_field(name="To look up words, type:", value=".search <class> <word>\n<class> would be noun, adjective, pronoun, verb, etc.\nReminder:\n-αυ/ευ/ου = -au/eu/ou\nη/ε = e\nω/ο = o\nυ = y\nγγ/γκ/γχ = ng/nk/nkh\nῥ = rh")
+  em.add_field(name="To look up words, type:", value=".search <class> <word> <optional:verb>\n<class> would be noun, adjective, pronoun, verb, etc.\n<optional:verb> would be tenses, participle_present, participle_future, participle_aorist or participle_perfect.")
+  em.add_field(name="Reminder:", value="-αυ/ευ/ου = -au/eu/ou\nη/ε = e\nω/ο = o\nυ = y\nγγ/γκ/γχ = ng/nk/nkh\nῥ = rh")
   await ctx.send(embed=em)
 
 @bot.command(name='search')
-async def search(ctx, arg1, arg2):
-  with open (f"lexicon/{arg1.lower()}s/{arg2.lower()}.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, arg2.capitalize())
-    await ctx.send(embed = em)
+async def search_verb(ctx, arg1, arg2, arg3=None):
+  if arg1.lower() != 'verb':
+    with open (f"lexicon/{arg1.lower()}s/{arg2.lower()}.json", "r", encoding='utf8') as f:
+      data = json.load(f)
+      em = declinator(data, arg2.capitalize())
+      await ctx.send(embed = em)
+
+  elif arg1.lower() == 'verb':
+    with open (f"lexicon/{arg1.lower()}s/{arg2.lower()}.json", "r", encoding='utf8') as f:
+      data = json.load(f)
+      if arg3.lower() == 'tenses':
+        em_present = conjugator_present(data, "Present")
+        em_imperfect = conjugator_imperfect(data, "Imperfect")
+        em_future = conjugator_future(data, "Future")
+        em_aorist = conjugator_aorist(data, "Aorist")
+        em_perfect = conjugator_perfect(data, "Perfect")
+        em_pluperfect = conjugator_pluperfect(data, "Pluperfect")
+
+        if (em_present):
+          await ctx.send(embed=em_present)
+        if (em_imperfect):
+          await ctx.send(embed=em_imperfect)
+        if (em_future):
+          await ctx.send(embed=em_future)
+        if (em_aorist):
+          await ctx.send(embed=em_aorist)
+        if (em_perfect):
+          await ctx.send(embed=em_perfect)
+        if (em_pluperfect):
+          await ctx.send(embed=em_pluperfect)
+
+      elif arg3.lower() == 'participle_present':
+        em_p_m_present_a = declinator(data["present"]["participle"]["active"]["masculine"], "Present Participle Active Masculine")
+        em_p_f_present_a = declinator(data["present"]["participle"]["active"]["feminine"], "Present Participle Active Feminine")
+        em_p_n_present_a = declinator(data["present"]["participle"]["active"]["neuter"], "Present Participle Active Neuter")
+        em_p_m_present_m = declinator(data["present"]["participle"]["middle"]["masculine"], "Present Participle Middle Masculine")
+        em_p_f_present_m = declinator(data["present"]["participle"]["middle"]["feminine"], "Present Participle Middle Feminine")
+        em_p_n_present_m = declinator(data["present"]["participle"]["middle"]["neuter"], "Present Participle Middle Neuter")
+        em_p_m_present_p = declinator(data["present"]["participle"]["passive"]["masculine"], "Present Participle Passive Masculine")
+        em_p_f_present_p = declinator(data["present"]["participle"]["passive"]["feminine"], "Present Participle Passive Feminine")
+        em_p_n_present_p = declinator(data["present"]["participle"]["passive"]["neuter"], "Present Participle Passive Neuter")
+        if (em_p_m_present_a):
+          await ctx.send(embed=em_p_m_present_a)
+        if (em_p_f_present_a):
+          await ctx.send(embed=em_p_f_present_a)
+        if (em_p_n_present_a):
+          await ctx.send(embed=em_p_n_present_a)
+        if (em_p_m_present_m):
+          await ctx.send(embed=em_p_m_present_m)
+        if (em_p_f_present_m):
+          await ctx.send(embed=em_p_f_present_m)
+        if (em_p_n_present_m):
+          await ctx.send(embed=em_p_n_present_m)
+        if (em_p_m_present_p):
+          await ctx.send(embed=em_p_m_present_p)
+        if (em_p_f_present_p):
+          await ctx.send(embed=em_p_f_present_p)
+        if (em_p_n_present_p):
+          await ctx.send(embed=em_p_n_present_p)
+
+      elif arg3.lower() == 'participle_future':
+        em_p_m_future_a = declinator(data["future"]["participle"]["active"]["masculine"], "Future Participle Active Masculine")
+        em_p_f_future_a = declinator(data["future"]["participle"]["active"]["feminine"], "Future Participle Active Feminine")
+        em_p_n_future_a = declinator(data["future"]["participle"]["active"]["neuter"], "Future Participle Active Neuter")
+        em_p_m_future_m = declinator(data["future"]["participle"]["middle"]["masculine"], "Future Participle Middle Masculine")
+        em_p_f_future_m = declinator(data["future"]["participle"]["middle"]["feminine"], "Future Participle Middle Feminine")
+        em_p_n_future_m = declinator(data["future"]["participle"]["middle"]["neuter"], "Future Participle Middle Neuter")
+        em_p_m_future_p = declinator(data["future"]["participle"]["passive"]["masculine"], "Future Participle Passive Masculine")
+        em_p_f_future_p = declinator(data["future"]["participle"]["passive"]["feminine"], "Future Participle Passive Feminine")
+        em_p_n_future_p = declinator(data["future"]["participle"]["passive"]["neuter"], "Future Participle Passive Neuter")
+        if (em_p_m_future_a):
+          await ctx.send(embed=em_p_m_future_a)
+        if (em_p_f_future_a):
+          await ctx.send(embed=em_p_f_future_a)
+        if (em_p_n_future_a):
+          await ctx.send(embed=em_p_n_future_a)
+        if (em_p_m_future_m):
+          await ctx.send(embed=em_p_m_future_m)
+        if (em_p_f_future_m):
+          await ctx.send(embed=em_p_f_future_m)
+        if (em_p_n_future_m):
+          await ctx.send(embed=em_p_n_future_m)
+        if (em_p_m_future_p):
+          await ctx.send(embed=em_p_m_future_p)
+        if (em_p_f_future_p):
+          await ctx.send(embed=em_p_f_future_p)
+        if (em_p_n_future_p):
+          await ctx.send(embed=em_p_n_future_p)
+
+      elif arg3.lower() == 'participle_aorist':
+        em_p_m_aorist_a = declinator(data["aorist"]["participle"]["active"]["masculine"], "Aorist Participle Active Masculine")
+        em_p_f_aorist_a = declinator(data["aorist"]["participle"]["active"]["feminine"], "Aorist Participle Active Feminine")
+        em_p_n_aorist_a = declinator(data["aorist"]["participle"]["active"]["neuter"], "Aorist Participle Active Neuter")
+        em_p_m_aorist_m = declinator(data["aorist"]["participle"]["middle"]["masculine"], "Aorist Participle Middle Masculine")
+        em_p_f_aorist_m = declinator(data["aorist"]["participle"]["middle"]["feminine"], "Aorist Participle Middle Feminine")
+        em_p_n_aorist_m = declinator(data["aorist"]["participle"]["middle"]["neuter"], "Aorist Participle Middle Neuter")
+        em_p_m_aorist_p = declinator(data["aorist"]["participle"]["passive"]["masculine"], "Aorist Participle Passive Masculine")
+        em_p_f_aorist_p = declinator(data["aorist"]["participle"]["passive"]["feminine"], "Aorist Participle Passive Feminine")
+        em_p_n_aorist_p = declinator(data["aorist"]["participle"]["passive"]["neuter"], "Aorist Participle Passive Neuter")
+        if (em_p_m_aorist_a):
+          await ctx.send(embed=em_p_m_aorist_a)
+        if (em_p_f_aorist_a):
+          await ctx.send(embed=em_p_f_aorist_a)
+        if (em_p_n_aorist_a):
+          await ctx.send(embed=em_p_n_aorist_a)
+        if (em_p_m_aorist_m):
+          await ctx.send(embed=em_p_m_aorist_m)
+        if (em_p_f_aorist_m):
+          await ctx.send(embed=em_p_f_aorist_m)
+        if (em_p_n_aorist_m):
+          await ctx.send(embed=em_p_n_aorist_m)
+        if (em_p_m_aorist_p):
+          await ctx.send(embed=em_p_m_aorist_p)
+        if (em_p_f_aorist_p):
+          await ctx.send(embed=em_p_f_aorist_p)
+        if (em_p_n_aorist_p):
+          await ctx.send(embed=em_p_n_aorist_p)
+
+      elif arg3.lower() == 'participle_perfect':
+        em_p_m_perfect_a = declinator(data["perfect"]["participle"]["active"]["masculine"], "Perfect Participle Active Masculine")
+        em_p_f_perfect_a = declinator(data["perfect"]["participle"]["active"]["feminine"], "Perfect Participle Active Feminine")
+        em_p_n_perfect_a = declinator(data["perfect"]["participle"]["active"]["neuter"], "Perfect Participle Active Neuter")
+        em_p_m_perfect_m = declinator(data["perfect"]["participle"]["middle"]["masculine"], "Perfect Participle Middle Masculine")
+        em_p_f_perfect_m = declinator(data["perfect"]["participle"]["middle"]["feminine"], "Perfect Participle Middle Feminine")
+        em_p_n_perfect_m = declinator(data["perfect"]["participle"]["middle"]["neuter"], "Perfect Participle Middle Neuter")
+        em_p_m_perfect_p = declinator(data["perfect"]["participle"]["passive"]["masculine"], "Perfect Participle Passive Masculine")
+        em_p_f_perfect_p = declinator(data["perfect"]["participle"]["passive"]["feminine"], "Perfect Participle Passive Feminine")
+        em_p_n_perfect_p = declinator(data["perfect"]["participle"]["passive"]["neuter"], "Perfect Participle Passive Neuter")
+        if (em_p_m_perfect_a):
+          await ctx.send(embed=em_p_m_perfect_a)
+        if (em_p_f_perfect_a):
+          await ctx.send(embed=em_p_f_perfect_a)
+        if (em_p_n_perfect_a):
+          await ctx.send(embed=em_p_n_perfect_a)
+        if (em_p_m_perfect_m):
+          await ctx.send(embed=em_p_m_perfect_m)
+        if (em_p_f_perfect_m):
+          await ctx.send(embed=em_p_f_perfect_m)
+        if (em_p_n_perfect_m):
+          await ctx.send(embed=em_p_n_perfect_m)
+        if (em_p_m_perfect_p):
+          await ctx.send(embed=em_p_m_perfect_p)
+        if (em_p_f_perfect_p):
+          await ctx.send(embed=em_p_f_perfect_p)
+        if (em_p_n_perfect_p):
+          await ctx.send(embed=em_p_n_perfect_p)
 
 @bot.command(name='pronouns')
 async def pronouns(ctx):
