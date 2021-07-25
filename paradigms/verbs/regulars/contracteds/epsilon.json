@@ -1,5 +1,162 @@
 {
   "present": {
+    "infinitive": {
+      "active": "ποιεῖν",
+      "middle": "ποιεῖσθαι",
+      "passive": ""
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "ποιῶν",
+            "genitive": "ποιοῦντος",
+            "dative": "ποιοῦντι",
+            "accusative": "ποιοῦντα",
+            "vocative": "ποιῶν"
+          },
+          "plural": {
+            "nominative": "ποιοῦντες",
+            "genitive": "ποιούντων",
+            "dative": "ποιοῦσι",
+            "accusative": "ποιοῦντας",
+            "vocative": "ποιοῦντες"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ποιοῦσα",
+            "genitive": "ποιούσης",
+            "dative": "ποιούσῃ",
+            "accusative": "ποιοῦσαν",
+            "vocative": "ποιοῦσα"
+          },
+          "plural": {
+            "nominative": "ποιοῦσαι",
+            "genitive": "ποιουσῶν",
+            "dative": "ποιούσαις",
+            "accusative": "ποιούσας",
+            "vocative": "ποιοῦσαι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ποιοῦν",
+            "genitive": "ποιοῦντος",
+            "dative": "ποιοῦντι",
+            "accusative": "ποιοῦν",
+            "vocative": "ποιοῦν"
+          },
+          "plural": {
+            "nominative": "ποιοῦντα",
+            "genitive": "ποιούντων",
+            "dative": "ποιοῦσι",
+            "accusative": "ποιοῦντα",
+            "vocative": "ποιοῦντα"
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "ποιούμενος",
+            "genitive": "ποιουμένου",
+            "dative": "ποιουμένῳ",
+            "accusative": "ποιούμενον",
+            "vocative": "ποιούμενε"
+          },
+          "plural": {
+            "nominative": "ποιούμενοι",
+            "genitive": "ποιουμένων",
+            "dative": "ποιουμένοις",
+            "accusative": "ποιουμένους",
+            "vocative": "ποιούμενοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ποιουμένη",
+            "genitive": "ποιουμένης",
+            "dative": "ποιουμένῃ",
+            "accusative": "ποιουμένην",
+            "vocative": "ποιουμένη"
+          },
+          "plural": {
+            "nominative": "ποιούμεναι",
+            "genitive": "ποιουμένων",
+            "dative": "ποιουμέναις",
+            "accusative": "ποιουμένας",
+            "vocative": "ποιούμεναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ποιούμενον",
+            "genitive": "ποιουμένου",
+            "dative": "ποιουμένῳ",
+            "accusative": "ποιούμενον",
+            "vocative": "ποιούμενον"
+          },
+          "plural": {
+            "nominative": "ποιούμενα",
+            "genitive": "ποιουμένων",
+            "dative": "ποιουμένοις",
+            "accusative": "ποιούμενα",
+            "vocative": "ποιούμενα"
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "ποιούμενος",
+            "genitive": "ποιουμένου",
+            "dative": "ποιουμένῳ",
+            "accusative": "ποιούμενον",
+            "vocative": "ποιούμενε"
+          },
+          "plural": {
+            "nominative": "ποιούμενοι",
+            "genitive": "ποιουμένων",
+            "dative": "ποιουμένοις",
+            "accusative": "ποιουμένους",
+            "vocative": "ποιούμενοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ποιουμένη",
+            "genitive": "ποιουμένης",
+            "dative": "ποιουμένῃ",
+            "accusative": "ποιουμένην",
+            "vocative": "ποιουμένη"
+          },
+          "plural": {
+            "nominative": "ποιούμεναι",
+            "genitive": "ποιουμένων",
+            "dative": "ποιουμέναις",
+            "accusative": "ποιουμένας",
+            "vocative": "ποιούμεναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ποιούμενον",
+            "genitive": "ποιουμένου",
+            "dative": "ποιουμένῳ",
+            "accusative": "ποιούμενον",
+            "vocative": "ποιούμενον"
+          },
+          "plural": {
+            "nominative": "ποιούμενα",
+            "genitive": "ποιουμένων",
+            "dative": "ποιουμένοις",
+            "accusative": "ποιούμενα",
+            "vocative": "ποιούμενα"
+          }
+        }
+      }
+    },
     "indicative": {
       "active": {
         "singular": {
@@ -16,7 +173,19 @@
       "middle": {
         "singular": {
           "first": "ποιοῦμαι",
-          "second": "ποιῇ",
+          "second": "ποιεῖ/ποιῇ",
+          "third": "ποιεῖται"
+        },
+        "plural": {
+          "first": "ποιούμεθα",
+          "second": "ποιεῖσθε",
+          "third": "ποιοῦνται"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ποιοῦμαι",
+          "second": "ποιεῖ/ποιῇ",
           "third": "ποιεῖται"
         },
         "plural": {
@@ -31,23 +200,1666 @@
         "singular": {
           "first": "",
           "second": "ποίει",
-          "third": ""
+          "third": "ποιείτω"
         },
         "plural": {
           "first": "",
           "second": "ποιεῖτε",
-          "third": ""
+          "third": "ποιούντων"
         }
       },
       "middle": {
         "singular": {
           "first": "",
           "second": "ποιοῦ",
-          "third": ""
+          "third": "ποιείσθω"
         },
         "plural": {
           "first": "",
           "second": "ποιεῖσθε",
+          "third": "ποιείσθων"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "ποιοῦ",
+          "third": "ποιείσθω"
+        },
+        "plural": {
+          "first": "",
+          "second": "ποιεῖσθε",
+          "third": "ποιείσθων"
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "ποιῶ",
+          "second": "ποιῇς",
+          "third": "ποιῇ"
+        },
+        "plural": {
+          "first": "ποιῶμεν",
+          "second": "ποιῆτε",
+          "third": "ποιῶσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ποιῶμαι",
+          "second": "ποιῇ",
+          "third": "ποιῆται"
+        },
+        "plural": {
+          "first": "ποιώμεθα",
+          "second": "ποιῆσθε",
+          "third": "ποιῶνται"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ποιῶμαι",
+          "second": "ποιῇ",
+          "third": "ποιῆται"
+        },
+        "plural": {
+          "first": "ποιώμεθα",
+          "second": "ποιῆσθε",
+          "third": "ποιῶνται"
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "ποιοίην/ποιοῖμι",
+          "second": "ποιοίης/ποιοῖς",
+          "third": "ποιοίη/ποιοῖ"
+        },
+        "plural": {
+          "first": "ποιοῖμεν/ποιοίημεν",
+          "second": "ποιοῖτε/ποιοίητε",
+          "third": "ποιοῖεν/ποιοίησαν"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ποιοίμην",
+          "second": "ποιοῖο",
+          "third": "ποιοῖτο"
+        },
+        "plural": {
+          "first": "ποιοίμεθα",
+          "second": "ποιοῖσθε",
+          "third": "ποιοῖντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ποιοίμην",
+          "second": "ποιοῖο",
+          "third": "ποιοῖτο"
+        },
+        "plural": {
+          "first": "ποιοίμεθα",
+          "second": "ποιοῖσθε",
+          "third": "ποιοῖντο"
+        }
+      }
+    }
+  },
+  "imperfect": {
+    "infinitive": {
+      "active": "",
+      "middle": "",
+      "passive": ""
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "ἐποίουν",
+          "second": "ἐποίεις",
+          "third": "ἐποίει"
+        },
+        "plural": {
+          "first": "ἐποιοῦμεν",
+          "second": "ἐποιεῖτε",
+          "third": "ἐποίουν"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ἐποιούμην",
+          "second": "ἐποιοῦ",
+          "third": "ἐποιεῖτο"
+        },
+        "plural": {
+          "first": "ἐποιούμεθα",
+          "second": "ἐποιεῖσθε",
+          "third": "ἐποιοῦντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ἐποιούμην",
+          "second": "ἐποιοῦ",
+          "third": "ἐποιεῖτο"
+        },
+        "plural": {
+          "first": "ἐποιούμεθα",
+          "second": "ἐποιεῖσθε",
+          "third": "ἐποιοῦντο"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    }
+  },
+  "future": {
+    "infinitive": {
+      "active": "ποιήσειν",
+      "middle": "ποιήσεσθαι",
+      "passive": "ποιηθήσεσθαι"
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "ποιήσων",
+            "genitive": "ποιήσοντος",
+            "dative": "ποιήσοντι",
+            "accusative": "ποιήσοντα",
+            "vocative": "ποιήσων"
+          },
+          "plural": {
+            "nominative": "ποιήσοντες",
+            "genitive": "ποιησόντων",
+            "dative": "ποιησοῦσι",
+            "accusative": "ποιήσοντας",
+            "vocative": "ποιήσοντες"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ποιήσουσα",
+            "genitive": "ποιησούσης",
+            "dative": "ποιησούσῃ",
+            "accusative": "ποιήσουσαν",
+            "vocative": "ποιήσουσα"
+          },
+          "plural": {
+            "nominative": "ποιήσουσαι",
+            "genitive": "ποιησουσῶν",
+            "dative": "ποιησούσαις",
+            "accusative": "ποιησούσας",
+            "vocative": "ποιήσουσαι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ποιῆσον",
+            "genitive": "ποιήσοντος",
+            "dative": "ποιήσοντι",
+            "accusative": "ποιῆσον",
+            "vocative": "ποιῆσον"
+          },
+          "plural": {
+            "nominative": "ποιήσοντα",
+            "genitive": "ποιησόντων",
+            "dative": "ποιησοῦσι",
+            "accusative": "ποιήσοντα",
+            "vocative": "ποιήσοντα"
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "ποιησόμενος",
+            "genitive": "ποιησομένου",
+            "dative": "ποιησομένῳ",
+            "accusative": "ποιησόμενον",
+            "vocative": "ποιησόμενε"
+          },
+          "plural": {
+            "nominative": "ποιησόμενοι",
+            "genitive": "ποιησομένων",
+            "dative": "ποιησομένοις",
+            "accusative": "ποιησομένους",
+            "vocative": "ποιησόμενοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ποιησομένη",
+            "genitive": "ποιησομένης",
+            "dative": "ποιησομένῃ",
+            "accusative": "ποιησομένην",
+            "vocative": "ποιησομένη"
+          },
+          "plural": {
+            "nominative": "ποιησόμεναι",
+            "genitive": "ποιησομένων",
+            "dative": "ποιησομέναις",
+            "accusative": "ποιησομένας",
+            "vocative": "ποιησόμεναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ποιησόμενον",
+            "genitive": "ποιησομένου",
+            "dative": "ποιησομένῳ",
+            "accusative": "ποιησόμενον",
+            "vocative": "ποιησόμενον"
+          },
+          "plural": {
+            "nominative": "ποιησόμενα",
+            "genitive": "ποιησομένων",
+            "dative": "ποιησομένοις",
+            "accusative": "ποιησόμενα",
+            "vocative": "ποιησόμενα"
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "ποιηθησόμενος",
+            "genitive": "ποιηθησομένου",
+            "dative": "ποιηθησομένῳ",
+            "accusative": "ποιηθησόμενον",
+            "vocative": "ποιηθησόμενε"
+          },
+          "plural": {
+            "nominative": "ποιηθησόμενοι",
+            "genitive": "ποιηθησομένων",
+            "dative": "ποιηθησομένοις",
+            "accusative": "ποιηθησομένους",
+            "vocative": "ποιηθησόμενοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ποιηθησομένη",
+            "genitive": "ποιηθησομένης",
+            "dative": "ποιηθησομένῃ",
+            "accusative": "ποιηθησομένην",
+            "vocative": "ποιηθησομένη"
+          },
+          "plural": {
+            "nominative": "ποιηθησόμεναι",
+            "genitive": "ποιηθησομένων",
+            "dative": "ποιηθησομέναις",
+            "accusative": "ποιηθησομένας",
+            "vocative": "ποιηθησόμεναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ποιηθησόμενον",
+            "genitive": "ποιηθησομένου",
+            "dative": "ποιηθησομένῳ",
+            "accusative": "ποιηθησόμενον",
+            "vocative": "ποιηθησόμενον"
+          },
+          "plural": {
+            "nominative": "ποιηθησόμενα",
+            "genitive": "ποιηθησομένων",
+            "dative": "ποιηθησομένοις",
+            "accusative": "ποιηθησόμενα",
+            "vocative": "ποιηθησόμενα"
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "ποιήσω",
+          "second": "ποιήσεις",
+          "third": "ποιήσει"
+        },
+        "plural": {
+          "first": "ποιήσομεν",
+          "second": "ποιήσετε",
+          "third": "ποιήσουσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ποιήσομαι",
+          "second": "ποιήσῃ/ποιήσει",
+          "third": "ποιήσεται"
+        },
+        "plural": {
+          "first": "ποιησόμεθα",
+          "second": "ποιήσεσθε",
+          "third": "ποιήσονται"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ποιηθήσομαι",
+          "second": "ποιηθήσῃ",
+          "third": "ποιηθήσεται"
+        },
+        "plural": {
+          "first": "ποιηθησόμεθα",
+          "second": "ποιηθήσεσθε",
+          "third": "ποιηθήσονται"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "ποιήσοιμι",
+          "second": "ποιήσοις",
+          "third": "ποιήσοι"
+        },
+        "plural": {
+          "first": "ποιήσοιμεν",
+          "second": "ποιήσοιτε",
+          "third": "ποιήσοιεν"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ποιησοίμην",
+          "second": "ποιήσοιο",
+          "third": "ποιήσοιτο"
+        },
+        "plural": {
+          "first": "ποιησοίμεθα",
+          "second": "ποιήσοισθε",
+          "third": "ποιήσοιντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ποιηθησοίμην",
+          "second": "ποιηθήσοιο",
+          "third": "ποιηθήσοιτο"
+        },
+        "plural": {
+          "first": "ποιηθησοίμεθα",
+          "second": "ποιηθήσοισθε",
+          "third": "ποιηθήσοιντο"
+        }
+      }
+    }
+  },
+  "aorist": {
+    "infinitive": {
+      "active": "ποιῆσαι",
+      "middle": "ποιήσασθαι",
+      "passive": "ποιηθῆναι"
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "ποιήσας",
+            "genitive": "ποιήσαντος",
+            "dative": "ποιήσαντι",
+            "accusative": "ποιήσαντα",
+            "vocative": "ποιήσας"
+          },
+          "plural": {
+            "nominative": "ποιήσας",
+            "genitive": "ποιησάντων",
+            "dative": "ποιήσασι",
+            "accusative": "ποιήσαντας",
+            "vocative": "ποιήσαντες"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ποιήσασα",
+            "genitive": "ποιησάσης",
+            "dative": "ποιησάσῃ",
+            "accusative": "ποιήσασαν",
+            "vocative": "ποιήσασα"
+          },
+          "plural": {
+            "nominative": "ποιήσασαι",
+            "genitive": "ποιησασῶν",
+            "dative": "ποιησάσαις",
+            "accusative": "ποιησάσας",
+            "vocative": "ποιήσασαι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ποιῆσαν",
+            "genitive": "ποιήσαντος",
+            "dative": "ποιήσαντι",
+            "accusative": "ποιῆσαν",
+            "vocative": "ποιῆσαν"
+          },
+          "plural": {
+            "nominative": "ποιήσαντα",
+            "genitive": "ποιησάντων",
+            "dative": "ποιήσασι",
+            "accusative": "ποιήσαντα",
+            "vocative": "ποιήσαντα"
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "ποιησάμενος",
+            "genitive": "ποιησαμένου",
+            "dative": "ποιησαμένῳ",
+            "accusative": "ποιησάμενον",
+            "vocative": "ποιησάμενε"
+          },
+          "plural": {
+            "nominative": "ποιησάμενοι",
+            "genitive": "ποιησαμένων",
+            "dative": "ποιησαμένοις",
+            "accusative": "ποιησαμένους",
+            "vocative": "ποιησάμενοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ποιησαμένη",
+            "genitive": "ποιησαμένης",
+            "dative": "ποιησαμένῃ",
+            "accusative": "ποιησαμένην",
+            "vocative": "ποιησαμένη"
+          },
+          "plural": {
+            "nominative": "ποιησάμεναι",
+            "genitive": "ποιησαμένων",
+            "dative": "ποιησαμέναις",
+            "accusative": "ποιησαμένας",
+            "vocative": "ποιησάμεναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ποιησάμενον",
+            "genitive": "ποιησαμένου",
+            "dative": "ποιησαμένῳ",
+            "accusative": "ποιησάμενον",
+            "vocative": "ποιησάμενον"
+          },
+          "plural": {
+            "nominative": "ποιησάμενα",
+            "genitive": "ποιησαμένων",
+            "dative": "ποιησαμένοις",
+            "accusative": "ποιησάμενα",
+            "vocative": "ποιησάμενα"
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "ποιηθείς",
+            "genitive": "ποιηθέντος",
+            "dative": "ποιηθέντι",
+            "accusative": "ποιηθέντα",
+            "vocative": "ποιηθείς"
+          },
+          "plural": {
+            "nominative": "ποιηθέντες",
+            "genitive": "ποιηθέντων",
+            "dative": "ποιηθεῖσι",
+            "accusative": "ποιηθέντας",
+            "vocative": "ποιηθέντες"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "ποιηθεῖσα",
+            "genitive": "ποιηθείης",
+            "dative": "ποιηθείσῃ",
+            "accusative": "ποιηθεῖσαν",
+            "vocative": "ποιηθεῖσα"
+          },
+          "plural": {
+            "nominative": "ποιηθεῖσαι",
+            "genitive": "ποιηθεισῶν",
+            "dative": "ποιηθείσαις",
+            "accusative": "ποιηθείσας",
+            "vocative": "ποιηθεῖσαι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "ποιηθέν",
+            "genitive": "ποιηθέντος",
+            "dative": "ποιηθέντι",
+            "accusative": "ποιηθέν",
+            "vocative": "ποιηθέν"
+          },
+          "plural": {
+            "nominative": "ποιηθέντα",
+            "genitive": "ποιηθέντων",
+            "dative": "ποιηθεῖσι",
+            "accusative": "ποιηθέντα",
+            "vocative": "ποιηθέντα"
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "ἐποίησα",
+          "second": "ἐποίησας",
+          "third": "ἐποίησε"
+        },
+        "plural": {
+          "first": "ἐποιήσαμεν",
+          "second": "ἐποιήσατε",
+          "third": "ἐποίησαν"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ἐποιησάμην",
+          "second": "ἐποιήσω",
+          "third": "ἐποιήσατο"
+        },
+        "plural": {
+          "first": "ἐποιησάμεθα",
+          "second": "ἐποιήσασθε",
+          "third": "ἐποιήσαντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ἐποιήθην",
+          "second": "ἐποιήθης",
+          "third": "ἐποιήθη"
+        },
+        "plural": {
+          "first": "ἐποιήθημεν",
+          "second": "ἐποιήθητε",
+          "third": "ἐποιήθησαν"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "ποίησον",
+          "third": "ποιησάτω"
+        },
+        "plural": {
+          "first": "",
+          "second": "ποιήσατε",
+          "third": "ποιησάντων"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "ποίησαι",
+          "third": "ποιησάσθω"
+        },
+        "plural": {
+          "first": "",
+          "second": "ποιήσασθε",
+          "third": "ποιησάσθων"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "ποιήθητι",
+          "third": "ποιηθήτω"
+        },
+        "plural": {
+          "first": "",
+          "second": "ποιήθητε",
+          "third": "ποιηθέντων"
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "ποιήσω",
+          "second": "ποιήσῃς",
+          "third": "ποιήσῃ"
+        },
+        "plural": {
+          "first": "ποιήσωμεν",
+          "second": "ποιήσητε",
+          "third": "ποιήσωσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ποιήσωμαι",
+          "second": "ποιήσῃ",
+          "third": "ποιήσηται"
+        },
+        "plural": {
+          "first": "ποιησώμεθα",
+          "second": "ποιήσησθε",
+          "third": "ποιήσωνται"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ποιηθῶ",
+          "second": "ποιηθῇς",
+          "third": "ποιηθῇ"
+        },
+        "plural": {
+          "first": "ποιηθῶμεν",
+          "second": "ποιηθῆτε",
+          "third": "ποιηθῶσι"
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "ποιήσαιμι",
+          "second": "ποιήσειας/ποιήσαις",
+          "third": "ποιήσειε/ποιήσαι"
+        },
+        "plural": {
+          "first": "ποιήσαιμεν",
+          "second": "ποιήσαιτε",
+          "third": "ποιήσειαν/ποιήσαιεν"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "ποιησαίμην",
+          "second": "ποιήσαιο",
+          "third": "ποιήσαιτο"
+        },
+        "plural": {
+          "first": "ποιησαίμεθα",
+          "second": "ποιήσαισθε",
+          "third": "ποιήσαιντο"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "ποιηθείην",
+          "second": "ποιηθείης",
+          "third": "ποιηθείη"
+        },
+        "plural": {
+          "first": "ποιηθεῖμεν/ποιηθείημεν",
+          "second": "ποιηθεῖτε/ποιηθείητε",
+          "third": "ποιηθεῖεν/ποιηθείησαν"
+        }
+      }
+    }
+  },
+  "perfect": {
+    "infinitive": {
+      "active": "πεποιηκέναι",
+      "middle": "πεποιῆσθαι",
+      "passive": "πεποιῆσθαι"
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "πεποιηκώς",
+            "genitive": "πεποιηκότος",
+            "dative": "πεποιηκότι",
+            "accusative": "πεποιηκότα",
+            "vocative": "πεποιηκώς"
+          },
+          "plural": {
+            "nominative": "πεποιηκότες",
+            "genitive": "πεποιηκότων",
+            "dative": "πεποιηκόσι",
+            "accusative": "πεποιηκότας",
+            "vocative": "πεποιηκότες"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "πεποιηκυῖα",
+            "genitive": "πεποιηκυίας",
+            "dative": "πεποιηκυίᾳ",
+            "accusative": "πεποιηκυῖαν",
+            "vocative": "πεποιηκυῖα"
+          },
+          "plural": {
+            "nominative": "πεποιηκυῖαι",
+            "genitive": "πεποιηκυιῶν",
+            "dative": "πεποιηκυίαις",
+            "accusative": "πεποιηκυίας",
+            "vocative": "πεποιηκυῖαι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "πεποιηκός",
+            "genitive": "πεποιηκότος",
+            "dative": "πεποιηκότι",
+            "accusative": "πεποιηκός",
+            "vocative": "πεποιηκός"
+          },
+          "plural": {
+            "nominative": "πεποιηκότα",
+            "genitive": "πεποιηκότων",
+            "dative": "πεποιηκόσι",
+            "accusative": "πεποιηκότα",
+            "vocative": "πεποιηκότα"
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "πεποιημένος",
+            "genitive": "πεποιημένου",
+            "dative": "πεποιημένῳ",
+            "accusative": "πεποιημένον",
+            "vocative": "πεποιημένε"
+          },
+          "plural": {
+            "nominative": "πεποιημένοι",
+            "genitive": "πεποιημένων",
+            "dative": "πεποιημένοις",
+            "accusative": "πεποιημένους",
+            "vocative": "πεποιημένοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "πεποιημένη",
+            "genitive": "πεποιημένης",
+            "dative": "πεποιημένῃ",
+            "accusative": "πεποιημένην",
+            "vocative": "πεποιημένη"
+          },
+          "plural": {
+            "nominative": "πεποιημέναι",
+            "genitive": "πεποιημένων",
+            "dative": "πεποιημέναις",
+            "accusative": "πεποιημένας",
+            "vocative": "πεποιημέναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "πεποιημένον",
+            "genitive": "πεποιημένου",
+            "dative": "πεποιημένῳ",
+            "accusative": "πεποιημένον",
+            "vocative": "πεποιημένον"
+          },
+          "plural": {
+            "nominative": "πεποιημένα",
+            "genitive": "πεποιημένων",
+            "dative": "πεποιημένοις",
+            "accusative": "πεποιημένα",
+            "vocative": "πεποιημένα"
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "πεποιημένος",
+            "genitive": "πεποιημένου",
+            "dative": "πεποιημένῳ",
+            "accusative": "πεποιημένον",
+            "vocative": "πεποιημένε"
+          },
+          "plural": {
+            "nominative": "πεποιημένοι",
+            "genitive": "πεποιημένων",
+            "dative": "πεποιημένοις",
+            "accusative": "πεποιημένους",
+            "vocative": "πεποιημένοι"
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "πεποιημένη",
+            "genitive": "πεποιημένης",
+            "dative": "πεποιημένῃ",
+            "accusative": "πεποιημένην",
+            "vocative": "πεποιημένη"
+          },
+          "plural": {
+            "nominative": "πεποιημέναι",
+            "genitive": "πεποιημένων",
+            "dative": "πεποιημέναις",
+            "accusative": "πεποιημένας",
+            "vocative": "πεποιημέναι"
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "πεποιημένον",
+            "genitive": "πεποιημένου",
+            "dative": "πεποιημένῳ",
+            "accusative": "πεποιημένον",
+            "vocative": "πεποιημένον"
+          },
+          "plural": {
+            "nominative": "πεποιημένα",
+            "genitive": "πεποιημένων",
+            "dative": "πεποιημένοις",
+            "accusative": "πεποιημένα",
+            "vocative": "πεποιημένα"
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "πεποίηκα",
+          "second": "πεποίηκας",
+          "third": "πεποίηκε"
+        },
+        "plural": {
+          "first": "πεποιήκαμεν",
+          "second": "πεποιήκατε",
+          "third": "πεποιήκασι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "πεποίημαι",
+          "second": "πεποίησαι",
+          "third": "πεποίηται"
+        },
+        "plural": {
+          "first": "πεποιήμεθα",
+          "second": "πεποίησθε",
+          "third": "πεποίηνται"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "πεποίημαι",
+          "second": "πεποίησαι",
+          "third": "πεποίηται"
+        },
+        "plural": {
+          "first": "πεποιήμεθα",
+          "second": "πεποίησθε",
+          "third": "πεποίηνται"
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "πεποίηκε",
+          "third": "πεποιηκέτω"
+        },
+        "plural": {
+          "first": "",
+          "second": "πεποιήκετε",
+          "third": "πεποιηκόντων"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "πεποίησο",
+          "third": "πεποιήσθω"
+        },
+        "plural": {
+          "first": "",
+          "second": "πεποίησθε",
+          "third": "πεποιήσθων"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "πεποίησο",
+          "third": "πεποιήσθω"
+        },
+        "plural": {
+          "first": "",
+          "second": "πεποίησθε",
+          "third": "πεποιήσθων"
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "πεποιήκω",
+          "second": "πεποιήκῃς",
+          "third": "πεποιήκῃ"
+        },
+        "plural": {
+          "first": "πεποιήκωμεν",
+          "second": "πεποιήκητε",
+          "third": "πεποιήκωσι"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "πεποιημένος ὦ",
+          "second": "πεποιημένος ᾖς",
+          "third": "πεποιημένος ᾖ"
+        },
+        "plural": {
+          "first": "πεποιημένοι ὦμεν",
+          "second": "πεποιημένοι ἦτε",
+          "third": "πεποιημένοι ὦσι"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "πεποιημένος ὦ",
+          "second": "πεποιημένος ᾖς",
+          "third": "πεποιημένος ᾖ"
+        },
+        "plural": {
+          "first": "πεποιημένοι ὦμεν",
+          "second": "πεποιημένοι ἦτε",
+          "third": "πεποιημένοι ὦσι"
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "πεποιήκοιμι/πεποιηκοίην",
+          "second": "πεποιήκοις/πεποιηκοίης",
+          "third": "πεποιήκοι/πεποιηκοίη"
+        },
+        "plural": {
+          "first": "πεποιήκοιμεν",
+          "second": "πεποιήκοιτε",
+          "third": "πεποιήκοιεν"
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "πεποιημένος εἴην",
+          "second": "πεποιημένος εἴης",
+          "third": "πεποιημένος εἴη"
+        },
+        "plural": {
+          "first": "πεποιημένοι εἴημεν/εἶμεν",
+          "second": "πεποιημένοι εἴητε/εἶτε",
+          "third": "πεποιημένοι εἴησαν/εἶεν"
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "πεποιημένος εἴην",
+          "second": "πεποιημένος εἴης",
+          "third": "πεποιημένος εἴη"
+        },
+        "plural": {
+          "first": "πεποιημένοι εἴημεν/εἶμεν",
+          "second": "πεποιημένοι εἴητε/εἶτε",
+          "third": "πεποιημένοι εἴησαν/εἶεν"
+        }
+      }
+    }
+  },
+  "pluperfect": {
+    "infinitive": {
+      "active": "",
+      "middle": "",
+      "passive": ""
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
           "third": ""
         }
       }
