@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "παιάν",
+    "genitive": "παιᾶνος",
+    "dative": "παιᾶνι",
+    "accusative": "παιᾶνα",
+    "vocative": "παιάν"
+  },
+  "plural": {
+    "nominative": "παιᾶνες",
+    "genitive": "παιάνων",
+    "dative": "παιᾶσι",
+    "accusative": "παιᾶνας",
+    "vocative": "παιᾶνες"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "singular": {
+    "nominative": "ὕβρις",
+    "genitive": "ὕβρεως",
+    "dative": "ὕβρει",
+    "accusative": "ὕβριν",
+    "vocative": "ὕβρι"
+  },
+  "plural": {
+    "nominative": "ὕβρεις",
+    "genitive": "ὕβρεων",
+    "dative": "ὕβρεσι",
+    "accusative": "ὕβρεις",
+    "vocative": "ὕβρεις"
+  }
+}
