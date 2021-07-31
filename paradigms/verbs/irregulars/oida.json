@@ -1,19 +1,1857 @@
 {
   "present": {
-    "indicative": {
+    "infinitive": {
+      "active": "",
+      "middle": "",
+      "passive": ""
+    },
+    "participle": {
       "active": {
-        "singular": {
-          "first": "οἶδα",
-          "second": "οἶσθα",
-          "third": "οἶδε"
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
         },
-        "plural": {
-          "first": "ἴσμεν",
-          "second": "ἴστε",
-          "third": "ἴσασι"
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
         }
       },
       "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    }
+  },
+  "imperfect": {
+    "infinitive": {
+      "active": "",
+      "middle": "",
+      "passive": ""
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    }
+  },
+  "future": {
+    "infinitive": {
+      "active": "",
+      "middle": "",
+      "passive": ""
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    }
+  },
+  "aorist": {
+    "infinitive": {
+      "active": "",
+      "middle": "",
+      "passive": ""
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    }
+  },
+  "perfect": {
+    "infinitive": {
+      "active": "",
+      "middle": "",
+      "passive": ""
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    }
+  },
+  "pluperfect": {
+    "infinitive": {
+      "active": "",
+      "middle": "",
+      "passive": ""
+    },
+    "participle": {
+      "active": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "middle": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      },
+      "passive": {
+        "masculine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "feminine": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        },
+        "neuter": {
+          "singular": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          },
+          "plural": {
+            "nominative": "",
+            "genitive": "",
+            "dative": "",
+            "accusative": "",
+            "vocative": ""
+          }
+        }
+      }
+    },
+    "indicative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "imperative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "subjunctive": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      }
+    },
+    "optative": {
+      "active": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "middle": {
+        "singular": {
+          "first": "",
+          "second": "",
+          "third": ""
+        },
+        "plural": {
+          "first": "",
+          "second": "",
+          "third": ""
+        }
+      },
+      "passive": {
         "singular": {
           "first": "",
           "second": "",
@@ -28,3 +1866,4 @@
     }
   }
 }
+

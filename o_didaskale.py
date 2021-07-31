@@ -2,8 +2,11 @@
 import os
 import json
 import discord
+import asyncio
 from discord.ext import commands
 from dotenv import load_dotenv
+from models import Word, db, NominalNumber
+from sqlalchemy import or_
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -11,7 +14,179 @@ bot = commands.Bot(command_prefix='.')
 
 @bot.event
 async def on_ready():
+  db.create_all()
   print("Ready!")
+
+async def oops(ctx):
+    await ctx.send(
+        "Oops, I think I rushed things a bit. Would you mind starting over? Sorry!")
+
+@bot.command(name='add_data')
+async def add_data(ctx):
+  await ctx.send("Hello! I'll help you adding words to the bot database.")
+  await ctx.send("Input the meaning of the word you want to add.")
+  try:
+      meaning = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+      if meaning.author.bot:
+          return oops(ctx)
+      palavra = Word(meaning=meaning.content)
+      print(meaning.content)
+      await asyncio.sleep(1)
+
+      await ctx.send("Now input the declension paradigm. (If you're not certain, put only the number or a dot)")
+      paradigm = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+      if paradigm.author.bot:
+          return oops(ctx)
+      palavra.paradigm = paradigm.content
+      print(paradigm.content)
+      await asyncio.sleep(1)
+
+      await ctx.send("Now let's decline the word, starting with nominative singular:")
+      nom_s = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+      if nom_s.author.bot:
+          return oops(ctx)
+      palavra.singular = NominalNumber(nominative=nom_s.content)
+      print(nom_s.content)
+      await asyncio.sleep(1)
+
+      await ctx.send("Accusative singular:")
+      acc_s = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+      if acc_s.author.bot:
+          return oops(ctx)
+      palavra.singular.accusative = acc_s.content
+      print(acc_s.content)
+      await asyncio.sleep(1)
+
+      await ctx.send("Genitive singular:")
+      gen_s = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+      if gen_s.author.bot:
+          return oops(ctx)
+      palavra.singular.genitive = gen_s.content
+      print(gen_s.content)
+      await asyncio.sleep(1)
+
+      await ctx.send("Dative singular:")
+      dat_s = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+      if dat_s.author.bot:
+          return oops(ctx)
+      palavra.singular.dative = dat_s.content
+      print(dat_s.content)
+      await asyncio.sleep(1)
+
+      await ctx.send("Finally, vocative singular:")
+      voc_s = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+      if voc_s.author.bot:
+          return oops(ctx)
+      palavra.singular.vocative = voc_s.content
+      print(voc_s.content)
+      await asyncio.sleep(1)
+
+      await ctx.send("Great! Now, do you know the dual form of this word? Answer with Y or N.")
+      y_n = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+      if y_n.content.lower() == 'y':
+          await ctx.send("Incredible! Then, give me the nominative dual:")
+          nom_d = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+          if nom_d.author.bot:
+              return oops(ctx)
+          palavra.dual = NominalNumber(nominative=nom_d.content)
+          print(nom_d.content)
+          await asyncio.sleep(1)
+
+          await ctx.send("Accusative dual:")
+          acc_d = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+          if acc_d.author.bot:
+              return oops(ctx)
+          palavra.dual.accusative = acc_d.content
+          print(acc_d.content)
+          await asyncio.sleep(1)
+
+          await ctx.send("Genitive dual:")
+          gen_d = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+          if gen_d.author.bot:
+              return oops(ctx)
+          palavra.dual.genitive = gen_d.content
+          print(gen_d.content)
+          await asyncio.sleep(1)
+
+          await ctx.send("Dative dual:")
+          dat_d = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+          if dat_d.author.bot:
+              return oops(ctx)
+          palavra.dual.dative = dat_d.content
+          print(dat_d.content)
+          await asyncio.sleep(1)
+
+          await ctx.send("Finally, vocative dual:")
+          voc_d = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+          if voc_d.author.bot:
+              return oops(ctx)
+          palavra.dual.vocative = voc_d.content
+          print(voc_d.content)
+          await asyncio.sleep(1)
+
+          await ctx.send("Wonderful! Now let's do the plural form, starting with nominative:")
+      elif y_n.content.lower() == 'n':
+          await ctx.send("Don't worry, I don't know many dual forms too.")
+          await ctx.send("Does this word have a plural form? Answer with Y or N.")
+          y_n = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+          if y_n.content.lower() == 'n':
+              await ctx.send("Okay! We're done here, then.")
+              await ctx.send("To look up this word's paradigm try the command '.search <meaning>' or '.search <nominative singular>' or '.search <paradigm>' and I should tell how to decline it.")
+              db.session.add(palavra)
+              db.session.commit()
+              return
+          elif y_n.content.lower():
+              await ctx.send("Let's do the nominative plural:")
+      else:
+          await ctx.send("What? Unfortunately you'll have to start over again. I don't understand.")
+          return
+      nom_p = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+      if nom_p.author.bot:
+          return oops(ctx)
+      palavra.plural = NominalNumber(nominative=nom_p.content)
+      print(nom_p.content)
+      await asyncio.sleep(1)
+
+      await ctx.send("Accusative plural:")
+      acc_p = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+      if acc_p.author.bot:
+          return oops(ctx)
+      palavra.plural.accusative = acc_p.content
+      print(acc_p.content)
+      await asyncio.sleep(1)
+
+      await ctx.send("Genitive plural:")
+      gen_p = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+      if gen_p.author.bot:
+          return oops(ctx)
+      palavra.plural.genitive = gen_p.content
+      print(gen_p.content)
+      await asyncio.sleep(1)
+
+      await ctx.send("Dative plural:")
+      dat_p = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+      if dat_p.author.bot:
+          return oops(ctx)
+      palavra.plural.dative = dat_p.content
+      print(dat_p.content)
+      await asyncio.sleep(1)
+
+      await ctx.send("Finally, vocative plural:")
+      voc_p = await bot.wait_for("message", check=lambda x: x.author.id == ctx.author.id, timeout=90)
+      if voc_p.author.bot:
+          return oops(ctx)
+      palavra.plural.vocative = voc_p.content
+      print(voc_p.content)
+      await asyncio.sleep(1)
+
+      await ctx.send("Good! Now I know one more word. Thanks for that!")
+      await ctx.send("To look up this word's paradigm try the command '.search <meaning>' or '.search <nominative singular>' or '.search <paradigm>' and I should tell how to decline it.")
+      db.session.add(palavra)
+      db.session.commit()
+      return
+  except asyncio.TimeoutError:
+      await ctx.send("Sorry, you didn't reply in time!")
+      return
 
 def declinator(word_json, description):
 
@@ -1088,188 +1263,24 @@ def conjugator_pluperfect(verb_json, description):
 @bot.command(name='info')
 async def info(ctx):
   em = discord.Embed(title = "Χαῖρε! I'm a bot that seeks to help ancient greek students.", color = discord.Color.blue())
-  em.add_field(name="You can look up declension paradigms, verb paradigms, articles, pronouns, adjectives, etc.\nTry these:", value=".articles\n.pronouns\n.nouns\n.adjectives\n.verbs")
-  em.add_field(name="To look up words, type:", value=".search <class> <word> <optional:verb>\n<class> would be noun, adjective, pronoun, verb, etc.\n<optional:verb> would be tenses, participle_present, participle_future, participle_aorist or participle_perfect.")
-  em.add_field(name="Reminder:", value="-αυ/ευ/ου = -au/eu/ou\nη/ε = e\nω/ο = o\nυ = y\nγγ/γκ/γχ = ng/nk/nkh\nῥ = rh")
+  em.add_field(name="You can look up words by searching their meaning, nominative singular or declension paradigm (according to Reading Greek method).", value="Type:\n.search <meaning/nominative singular/paradigm>")
+  em.add_field(name="You can also help build the lexicon of this humble bot.", value="Type .add_data and follow the instructions thoroughly till the end.")
+  em.add_field(name="IMPORTANT!", value="You have 90 seconds to answer me, check twice if you're inputting the right word and the right meaning.\nAdding wrong words will only make me dumb(er), please make me (more) intelligent.")
+  em.add_field(name="Oh! Still in progress function!", value="You can also look up verb paradigms, with tenses, infinitives, participles and all that stuff.\nJust type: .verbs and I'll guide you.")
   await ctx.send(embed=em)
 
 @bot.command(name='search')
-async def search_verb(ctx, arg1, arg2, arg3=None):
-  if arg1.lower() != 'verb':
-    with open (f"lexicon/{arg1.lower()}s/{arg2.lower()}.json", "r", encoding='utf8') as f:
-      data = json.load(f)
-      em = declinator(data, arg2.capitalize())
-      await ctx.send(embed = em)
-
-  elif arg1.lower() == 'verb':
-    with open (f"lexicon/{arg1.lower()}s/{arg2.lower()}.json", "r", encoding='utf8') as f:
-      data = json.load(f)
-      if arg3.lower() == 'tenses':
-        em_present = conjugator_present(data, "Present")
-        em_imperfect = conjugator_imperfect(data, "Imperfect")
-        em_future = conjugator_future(data, "Future")
-        em_aorist = conjugator_aorist(data, "Aorist")
-        em_perfect = conjugator_perfect(data, "Perfect")
-        em_pluperfect = conjugator_pluperfect(data, "Pluperfect")
-
-        if (em_present):
-          await ctx.send(embed=em_present)
-        if (em_imperfect):
-          await ctx.send(embed=em_imperfect)
-        if (em_future):
-          await ctx.send(embed=em_future)
-        if (em_aorist):
-          await ctx.send(embed=em_aorist)
-        if (em_perfect):
-          await ctx.send(embed=em_perfect)
-        if (em_pluperfect):
-          await ctx.send(embed=em_pluperfect)
-
-      elif arg3.lower() == 'participle_present':
-        em_p_m_present_a = declinator(data["present"]["participle"]["active"]["masculine"], "Present Participle Active Masculine")
-        em_p_f_present_a = declinator(data["present"]["participle"]["active"]["feminine"], "Present Participle Active Feminine")
-        em_p_n_present_a = declinator(data["present"]["participle"]["active"]["neuter"], "Present Participle Active Neuter")
-        em_p_m_present_m = declinator(data["present"]["participle"]["middle"]["masculine"], "Present Participle Middle Masculine")
-        em_p_f_present_m = declinator(data["present"]["participle"]["middle"]["feminine"], "Present Participle Middle Feminine")
-        em_p_n_present_m = declinator(data["present"]["participle"]["middle"]["neuter"], "Present Participle Middle Neuter")
-        em_p_m_present_p = declinator(data["present"]["participle"]["passive"]["masculine"], "Present Participle Passive Masculine")
-        em_p_f_present_p = declinator(data["present"]["participle"]["passive"]["feminine"], "Present Participle Passive Feminine")
-        em_p_n_present_p = declinator(data["present"]["participle"]["passive"]["neuter"], "Present Participle Passive Neuter")
-        if (em_p_m_present_a):
-          await ctx.send(embed=em_p_m_present_a)
-        if (em_p_f_present_a):
-          await ctx.send(embed=em_p_f_present_a)
-        if (em_p_n_present_a):
-          await ctx.send(embed=em_p_n_present_a)
-        if (em_p_m_present_m):
-          await ctx.send(embed=em_p_m_present_m)
-        if (em_p_f_present_m):
-          await ctx.send(embed=em_p_f_present_m)
-        if (em_p_n_present_m):
-          await ctx.send(embed=em_p_n_present_m)
-        if (em_p_m_present_p):
-          await ctx.send(embed=em_p_m_present_p)
-        if (em_p_f_present_p):
-          await ctx.send(embed=em_p_f_present_p)
-        if (em_p_n_present_p):
-          await ctx.send(embed=em_p_n_present_p)
-
-      elif arg3.lower() == 'participle_future':
-        em_p_m_future_a = declinator(data["future"]["participle"]["active"]["masculine"], "Future Participle Active Masculine")
-        em_p_f_future_a = declinator(data["future"]["participle"]["active"]["feminine"], "Future Participle Active Feminine")
-        em_p_n_future_a = declinator(data["future"]["participle"]["active"]["neuter"], "Future Participle Active Neuter")
-        em_p_m_future_m = declinator(data["future"]["participle"]["middle"]["masculine"], "Future Participle Middle Masculine")
-        em_p_f_future_m = declinator(data["future"]["participle"]["middle"]["feminine"], "Future Participle Middle Feminine")
-        em_p_n_future_m = declinator(data["future"]["participle"]["middle"]["neuter"], "Future Participle Middle Neuter")
-        em_p_m_future_p = declinator(data["future"]["participle"]["passive"]["masculine"], "Future Participle Passive Masculine")
-        em_p_f_future_p = declinator(data["future"]["participle"]["passive"]["feminine"], "Future Participle Passive Feminine")
-        em_p_n_future_p = declinator(data["future"]["participle"]["passive"]["neuter"], "Future Participle Passive Neuter")
-        if (em_p_m_future_a):
-          await ctx.send(embed=em_p_m_future_a)
-        if (em_p_f_future_a):
-          await ctx.send(embed=em_p_f_future_a)
-        if (em_p_n_future_a):
-          await ctx.send(embed=em_p_n_future_a)
-        if (em_p_m_future_m):
-          await ctx.send(embed=em_p_m_future_m)
-        if (em_p_f_future_m):
-          await ctx.send(embed=em_p_f_future_m)
-        if (em_p_n_future_m):
-          await ctx.send(embed=em_p_n_future_m)
-        if (em_p_m_future_p):
-          await ctx.send(embed=em_p_m_future_p)
-        if (em_p_f_future_p):
-          await ctx.send(embed=em_p_f_future_p)
-        if (em_p_n_future_p):
-          await ctx.send(embed=em_p_n_future_p)
-
-      elif arg3.lower() == 'participle_aorist':
-        em_p_m_aorist_a = declinator(data["aorist"]["participle"]["active"]["masculine"], "Aorist Participle Active Masculine")
-        em_p_f_aorist_a = declinator(data["aorist"]["participle"]["active"]["feminine"], "Aorist Participle Active Feminine")
-        em_p_n_aorist_a = declinator(data["aorist"]["participle"]["active"]["neuter"], "Aorist Participle Active Neuter")
-        em_p_m_aorist_m = declinator(data["aorist"]["participle"]["middle"]["masculine"], "Aorist Participle Middle Masculine")
-        em_p_f_aorist_m = declinator(data["aorist"]["participle"]["middle"]["feminine"], "Aorist Participle Middle Feminine")
-        em_p_n_aorist_m = declinator(data["aorist"]["participle"]["middle"]["neuter"], "Aorist Participle Middle Neuter")
-        em_p_m_aorist_p = declinator(data["aorist"]["participle"]["passive"]["masculine"], "Aorist Participle Passive Masculine")
-        em_p_f_aorist_p = declinator(data["aorist"]["participle"]["passive"]["feminine"], "Aorist Participle Passive Feminine")
-        em_p_n_aorist_p = declinator(data["aorist"]["participle"]["passive"]["neuter"], "Aorist Participle Passive Neuter")
-        if (em_p_m_aorist_a):
-          await ctx.send(embed=em_p_m_aorist_a)
-        if (em_p_f_aorist_a):
-          await ctx.send(embed=em_p_f_aorist_a)
-        if (em_p_n_aorist_a):
-          await ctx.send(embed=em_p_n_aorist_a)
-        if (em_p_m_aorist_m):
-          await ctx.send(embed=em_p_m_aorist_m)
-        if (em_p_f_aorist_m):
-          await ctx.send(embed=em_p_f_aorist_m)
-        if (em_p_n_aorist_m):
-          await ctx.send(embed=em_p_n_aorist_m)
-        if (em_p_m_aorist_p):
-          await ctx.send(embed=em_p_m_aorist_p)
-        if (em_p_f_aorist_p):
-          await ctx.send(embed=em_p_f_aorist_p)
-        if (em_p_n_aorist_p):
-          await ctx.send(embed=em_p_n_aorist_p)
-
-      elif arg3.lower() == 'participle_perfect':
-        em_p_m_perfect_a = declinator(data["perfect"]["participle"]["active"]["masculine"], "Perfect Participle Active Masculine")
-        em_p_f_perfect_a = declinator(data["perfect"]["participle"]["active"]["feminine"], "Perfect Participle Active Feminine")
-        em_p_n_perfect_a = declinator(data["perfect"]["participle"]["active"]["neuter"], "Perfect Participle Active Neuter")
-        em_p_m_perfect_m = declinator(data["perfect"]["participle"]["middle"]["masculine"], "Perfect Participle Middle Masculine")
-        em_p_f_perfect_m = declinator(data["perfect"]["participle"]["middle"]["feminine"], "Perfect Participle Middle Feminine")
-        em_p_n_perfect_m = declinator(data["perfect"]["participle"]["middle"]["neuter"], "Perfect Participle Middle Neuter")
-        em_p_m_perfect_p = declinator(data["perfect"]["participle"]["passive"]["masculine"], "Perfect Participle Passive Masculine")
-        em_p_f_perfect_p = declinator(data["perfect"]["participle"]["passive"]["feminine"], "Perfect Participle Passive Feminine")
-        em_p_n_perfect_p = declinator(data["perfect"]["participle"]["passive"]["neuter"], "Perfect Participle Passive Neuter")
-        if (em_p_m_perfect_a):
-          await ctx.send(embed=em_p_m_perfect_a)
-        if (em_p_f_perfect_a):
-          await ctx.send(embed=em_p_f_perfect_a)
-        if (em_p_n_perfect_a):
-          await ctx.send(embed=em_p_n_perfect_a)
-        if (em_p_m_perfect_m):
-          await ctx.send(embed=em_p_m_perfect_m)
-        if (em_p_f_perfect_m):
-          await ctx.send(embed=em_p_f_perfect_m)
-        if (em_p_n_perfect_m):
-          await ctx.send(embed=em_p_n_perfect_m)
-        if (em_p_m_perfect_p):
-          await ctx.send(embed=em_p_m_perfect_p)
-        if (em_p_f_perfect_p):
-          await ctx.send(embed=em_p_f_perfect_p)
-        if (em_p_n_perfect_p):
-          await ctx.send(embed=em_p_n_perfect_p)
-
-@bot.command(name='pronouns')
-async def pronouns(ctx):
-  em = discord.Embed(title = "You can look up all sorts of pronouns.", color = discord.Color.blue())
-  em.add_field(name="Try these:", value=".ego\n.sy")
-  await ctx.send(embed=em)
-
-@bot.command(name='nouns')
-async def nouns(ctx):
-  em = discord.Embed(title = "You can look up declension paradigms according to Reading Greek division.", color = discord.Color.blue())
-  em.add_field(name="Try these:", value=".1a\n.1b\n.1c\n.1d1\n.1d2\n.2a\n.2b\n.3a1\n.3a2\n.3b\n.3c\n.3d1\n.3d2\n.3e1\n.3e2\n.3f\n.3g\n.3h\n.irregular_nouns")
-  await ctx.send(embed=em)
-
-@bot.command(name='irregular_nouns')
-async def irregular_nouns(ctx):
-  em = discord.Embed(title="You can look up the irregular nouns declension.", color = discord.Color.blue())
-  em.add_field(name="Try these:", value=".zeus\n.naus\n.graus")
-  await ctx.send(embed=em)
-
-@bot.command(name='articles')
-async def articles(ctx):
-  em = discord.Embed(title = "You can look up the articles declension.", color = discord.Color.blue())
-  em.add_field(name="Try these:", value=".masculine\n.feminine\n.neuter")
-  await ctx.send(embed=em)
-
-@bot.command(name='adjectives')
-async def adjectives(ctx):
-  em = discord.Embed(title = "You can look up adjectives declension paradigms.", color = discord.Color.blue())
-  em.add_field(name="Try these:", value=".os_a_on\n.os_e_on\n.on_on\n.es_es")
-  await ctx.send(embed=em)
+async def search_verb(ctx, arg):
+  
+  words = db.session.query(Word).join(NominalNumber, Word.singular_id==NominalNumber.id).filter(or_(Word.paradigm.ilike(f'{arg}%'), Word.meaning.ilike(f'%{arg}%'), NominalNumber.nominative==arg))
+  for word in words:
+    em = discord.Embed(title = f'{word.singular.nominative} - Paradigm: {word.paradigm}\n({word.meaning})', color = discord.Color.blue())
+    em.add_field(name = "Singular", value = f"Nominative: {word.singular.nominative} \n Genitive: {word.singular.genitive} \n Dative: {word.singular.dative} \n Accusative: {word.singular.accusative} \n Vocative: {word.singular.vocative}")
+    if word.dual:
+        em.add_field(name = "Dual", value = f"Nominative: {word.dual.nominative} \n Genitive: {word.dual.genitive} \n Dative: {word.dual.dative} \n Accusative: {word.dual.accusative} \n Vocative: {word.dual.vocative}")
+    if word.plural:
+        em.add_field(name = "Plural", value = f"Nominative: {word.plural.nominative} \n Genitive: {word.plural.genitive} \n Dative: {word.plural.dative} \n Accusative: {word.plural.accusative} \n Vocative: {word.plural.vocative}")
+    await ctx.send(embed = em)
 
 @bot.command(name='verbs')
 async def verbs(ctx):
@@ -1804,245 +1815,5 @@ async def eimi(ctx):
       await ctx.send(embed=em_p_f_future_m)
     if (em_p_n_future_m):
       await ctx.send(embed=em_p_n_future_m)
-
-@bot.command(name='1a')
-async def first_1a(ctx):
-
-  with open ("paradigms/nouns/first_declension/1a.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(1a)")
-    await ctx.send(embed = em)
-
-@bot.command(name='1b')
-async def first_1b(ctx):
-
-  with open ("paradigms/nouns/first_declension/1b.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(1b)")
-    await ctx.send(embed = em)
-
-@bot.command(name='1c')
-async def first_1c(ctx):
-
-  with open ("paradigms/nouns/first_declension/1c.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(1c)")
-    await ctx.send(embed = em)
-
-@bot.command(name='1d1')
-async def first_1d1(ctx):
-
-  with open ("paradigms/nouns/first_declension/1d1.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(1d.1)")
-    await ctx.send(embed = em)
-
-@bot.command(name='1d2')
-async def first_1d2(ctx):
-
-  with open ("paradigms/nouns/first_declension/1d2.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(1d.2)")
-    await ctx.send(embed = em)
-
-@bot.command(name='2a')
-async def second_2a(ctx):
-
-  with open ("paradigms/nouns/second_declension/2a.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(2a)")
-    await ctx.send(embed = em)
-
-@bot.command(name='2b')
-async def second_2b(ctx):
-
-  with open ("paradigms/nouns/second_declension/2b.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(2b)")
-    await ctx.send(embed = em)
-
-@bot.command(name='3a1')
-async def third_3a1(ctx):
-
-  with open ("paradigms/nouns/third_declension/3a1.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(3a.1)")
-    await ctx.send(embed = em)
-
-@bot.command(name='3a2')
-async def third_3a2(ctx):
-
-  with open ("paradigms/nouns/third_declension/3a2.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(3a.2)")
-    await ctx.send(embed = em)
-
-@bot.command(name='3b')
-async def third_3b(ctx):
-
-  with open ("paradigms/nouns/third_declension/3b.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(3b)")
-    await ctx.send(embed = em)
-
-@bot.command(name='3c')
-async def third_3c(ctx):
-
-  with open ("paradigms/nouns/third_declension/3c.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(3c)")
-    await ctx.send(embed = em)
-
-@bot.command(name='3d1')
-async def third_3d1(ctx):
-
-  with open ("paradigms/nouns/third_declension/3d1.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(3d.1)")
-    await ctx.send(embed = em)
-
-@bot.command(name='3d2')
-async def third_3d2(ctx):
-
-  with open ("paradigms/nouns/third_declension/3d2.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(3d.2)")
-    await ctx.send(embed = em)
-
-@bot.command(name='3e1')
-async def third_3e1(ctx):
-
-  with open ("paradigms/nouns/third_declension/3e1.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(3e.1)")
-    await ctx.send(embed = em)
-
-@bot.command(name='3e2')
-async def third_3e2(ctx):
-
-  with open ("paradigms/nouns/third_declension/3e2.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(3e.2)")
-    await ctx.send(embed = em)
-
-@bot.command(name='3f')
-async def third_3f(ctx):
-
-  with open ("paradigms/nouns/third_declension/3f.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(3f)")
-    await ctx.send(embed = em)
-
-@bot.command(name='3g')
-async def third_3g(ctx):
-
-  with open ("paradigms/nouns/third_declension/3g.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(3g)")
-    await ctx.send(embed = em)
-
-@bot.command(name='3h')
-async def third_3h(ctx):
-
-  with open ("paradigms/nouns/third_declension/3h.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "(3h)")
-    await ctx.send(embed = em)
-
-@bot.command(name='zeus')
-async def zeus(ctx):
-
-  with open ("paradigms/nouns/irregulars/zeus.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "Ζεύς")
-    await ctx.send(embed = em)
-
-@bot.command(name='naus')
-async def naus(ctx):
-
-  with open ("paradigms/nouns/irregulars/naus.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "Ναῦς")
-    await ctx.send(embed = em)
-
-@bot.command(name='graus')
-async def graus(ctx):
-
-  with open ("paradigms/nouns/irregulars/graus.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "Γραῦς")
-    await ctx.send(embed = em)
-
-@bot.command(name='masculine')
-async def masculine(ctx):
-
-  with open ("paradigms/articles/masculine.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "Masculine Article")
-    await ctx.send(embed = em)
-
-@bot.command(name='feminine')
-async def feminine(ctx):
-
-  with open ("paradigms/articles/feminine.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "Feminine Article")
-    await ctx.send(embed = em)
-
-@bot.command(name='neuter')
-async def neuter(ctx):
-
-  with open ("paradigms/articles/neuter.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "Neuter Article")
-    await ctx.send(embed = em)
-
-@bot.command(name='os_e_on')
-async def os_e_on(ctx):
-
-  with open ("paradigms/adjectives/os_e_on.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "Three-form Adjective -ος/-η/-ον")
-    await ctx.send(embed = em)
-
-@bot.command(name='os_a_on')
-async def os_a_on(ctx):
-
-  with open ("paradigms/adjectives/os_a_on.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "Three-form Adjective -ος/-α/-ον")
-    await ctx.send(embed = em)
-
-@bot.command(name='on_on')
-async def on_on(ctx):
-
-  with open ("paradigms/adjectives/on_on.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "Two-form Adjective -ων/-ον")
-    await ctx.send(embed = em)
-
-@bot.command(name='es_es')
-async def es_es(ctx):
-
-  with open ("paradigms/adjectives/es_es.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "Two-form Adjective -ης/ες")
-    await ctx.send(embed = em)
-
-@bot.command(name='ego')
-async def ego(ctx):
-
-  with open ("paradigms/pronouns/ego.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "First Person Pronoun")
-    await ctx.send(embed = em)
-
-@bot.command(name='sy')
-async def sy(ctx):
-
-  with open ("paradigms/pronouns/sy.json", "r", encoding='utf8') as f:
-    data = json.load(f)
-    em = declinator(data, "Second Person Pronoun")
-    await ctx.send(embed = em)
 
 bot.run(TOKEN)
