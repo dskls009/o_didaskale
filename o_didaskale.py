@@ -1271,8 +1271,10 @@ async def info(ctx):
 
 @bot.command(name='search')
 async def search_verb(ctx, arg):
-  
-  words = db.session.query(Word).join(NominalNumber, Word.singular_id==NominalNumber.id).filter(or_(Word.paradigm.ilike(f'{arg}%'), Word.meaning.ilike(f'%{arg}%'), NominalNumber.nominative==arg))
+  words = []
+  words = db.session.query(Word).join(NominalNumber, Word.singular_id==NominalNumber.id).filter(or_(Word.paradigm==arg, Word.meaning==arg, NominalNumber.nominative==arg))
+  if words.first() is None:
+    words = db.session.query(Word).join(NominalNumber, Word.singular_id==NominalNumber.id).filter(or_(Word.paradigm.ilike(f'{arg}%'), Word.meaning.ilike(f'%{arg}%'), NominalNumber.nominative==arg))
   for word in words:
     em = discord.Embed(title = f'{word.singular.nominative} - Paradigm: {word.paradigm}\n({word.meaning})', color = discord.Color.blue())
     em.add_field(name = "Singular", value = f"Nominative: {word.singular.nominative} \n Genitive: {word.singular.genitive} \n Dative: {word.singular.dative} \n Accusative: {word.singular.accusative} \n Vocative: {word.singular.vocative}")
