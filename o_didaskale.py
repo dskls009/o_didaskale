@@ -1271,7 +1271,6 @@ async def info(ctx):
 
 @bot.command(name='search')
 async def search_verb(ctx, arg):
-  words = []
   words = db.session.query(Word).join(NominalNumber, Word.singular_id==NominalNumber.id).filter(or_(Word.paradigm==arg, Word.meaning==arg, NominalNumber.nominative==arg))
   if words.first() is None:
     words = db.session.query(Word).join(NominalNumber, Word.singular_id==NominalNumber.id).filter(or_(Word.paradigm.ilike(f'{arg}%'), Word.meaning.ilike(f'%{arg}%'), NominalNumber.nominative==arg))
